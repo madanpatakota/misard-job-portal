@@ -1,0 +1,470 @@
+:host {
+  display: block;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  color: #132641;
+}
+
+/* Login Page */
+
+.login-page {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 25px;
+  background: linear-gradient(135deg, #001b4e, #00215e);
+}
+
+.login-card {
+  width: min(100%, 420px);
+  padding: 42px;
+  border-radius: 18px;
+  background: white;
+  box-shadow: 0 20px 50px #00000050;
+}
+
+.login-logo {
+  width: 55px;
+  height: 55px;
+  display: grid;
+  place-items: center;
+  margin-bottom: 18px;
+  border-radius: 50%;
+  color: white;
+  background: #00215e;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.portal-name {
+  margin: 0;
+  color: #1769e0;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 1.2px;
+}
+
+.login-card h1 {
+  margin: 12px 0 10px;
+  color: #00215e;
+}
+
+.login-description {
+  margin-bottom: 28px;
+  color: #63748b;
+  line-height: 1.5;
+}
+
+.form-group {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.form-group label {
+  color: #213a5f;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.form-group input {
+  padding: 13px;
+  border: 1px solid #ccd6e4;
+  border-radius: 7px;
+  outline: none;
+  font-size: 0.95rem;
+}
+
+.form-group input:focus {
+  border-color: #1769e0;
+}
+
+.login-button {
+  width: 100%;
+  padding: 13px;
+  border: 0;
+  border-radius: 7px;
+  color: white;
+  background: #00215e;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background: #0b4196;
+}
+
+.error-message {
+  margin: 0 0 15px;
+  color: #d5223a;
+  font-size: 0.9rem;
+}
+
+/* Job Portal */
+
+.portal-shell {
+  min-height: 100vh;
+  background: #f4f7fb;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 32px;
+  color: white;
+  background: #00215e;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+
+.brand-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  line-height: 1;
+}
+
+.brand-name {
+  color: #ffffff;
+  font-size: 1.05rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.brand-subtitle {
+  color: #9fbce8;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+}
+.brand img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+.brand-logo {
+  width: 34px;
+  height: 34px;
+  overflow: hidden;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: white;
+}
+
+.brand-logo img {
+  width: 34px !important;
+  height: 34px !important;
+  display: block;
+  transform: none !important;
+  clip-path: none !important;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.header-right select {
+  padding: 8px 10px;
+  border: 1px solid #91a9d0;
+  border-radius: 6px;
+  color: white;
+  background: #00215e;
+}
+
+.logout-button {
+  padding: 8px 12px;
+  border: 1px solid #91a9d0;
+  border-radius: 6px;
+  color: white;
+  background: transparent;
+  cursor: pointer;
+}
+
+.intro,
+.job-list {
+  max-width: 1040px;
+  margin: auto;
+}
+
+.intro {
+  padding: 50px 24px 28px;
+}
+
+.intro p {
+  margin: 0;
+  color: #1769e0;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.intro h1 {
+  margin: 10px 0;
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+}
+
+.intro span {
+  color: #65758a;
+}
+
+.job-list {
+  display: grid;
+  gap: 15px;
+  padding: 0 24px 50px;
+}
+
+.job-card {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 20px;
+  padding: 25px;
+  border: 1px solid #e2e8f1;
+  border-radius: 12px;
+  background: white;
+  box-shadow: 0 5px 16px #1739630d;
+}
+
+.company-label {
+  margin: 0;
+  color: #1769e0;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.company-section h2 {
+  margin: 8px 0;
+  color: #132641;
+  font-size: 1.25rem;
+}
+
+.applied-date {
+  margin: 0;
+  color: #198754;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.not-applied-text {
+  margin: 0;
+  color: #7a8798;
+  font-size: 0.9rem;
+}
+
+.bookmark-button {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  padding: 4px;
+  border: 0;
+  color: #a6b0bd;
+  background: transparent;
+  cursor: pointer;
+}
+
+.bookmark-button svg {
+  fill: transparent;
+  stroke: currentColor;
+  stroke-width: 1.2;
+}
+
+.bookmark-button.applied {
+  color: #d5223a;
+}
+
+.bookmark-button.applied svg {
+  fill: currentColor;
+}
+
+.apply-button {
+  min-width: 145px;
+  padding: 12px 16px;
+  border: 0;
+  border-radius: 7px;
+  color: white;
+  background: #00215e;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.apply-button:hover {
+  background: #0b4196;
+}
+
+.empty-state {
+  padding: 60px 20px;
+  border-radius: 12px;
+  text-align: center;
+  background: white;
+}
+
+.empty-state h3 {
+  margin: 0 0 8px;
+}
+
+.empty-state p {
+  margin: 0;
+  color: #65758a;
+}
+
+@media (max-width: 700px) {
+  .topbar {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .header-right {
+    flex-wrap: wrap;
+  }
+
+  .job-card {
+    grid-template-columns: 1fr;
+    padding-top: 48px;
+  }
+
+  .apply-button {
+    width: 100%;
+  }
+}
+
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 7px;
+  padding: 5px 24px 45px;
+}
+
+.pagination button {
+  min-width: 38px;
+  height: 38px;
+  padding: 0 12px;
+  border: 1px solid #d6dfeb;
+  border-radius: 6px;
+  color: #00215e;
+  background: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.pagination button:hover:not(:disabled) {
+  color: white;
+  background: #0b4196;
+}
+
+.pagination button.active {
+  border-color: #00215e;
+  color: white;
+  background: #00215e;
+}
+
+.pagination button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.storage-note {
+  max-width: 1040px;
+  margin: -18px auto 35px;
+  padding: 0 24px;
+  color: #718096;
+  text-align: center;
+  font-size: 0.85rem;
+}
+
+.storage-note p {
+  margin: 0;
+}
+
+.storage-note span {
+  color: #1769e0;
+  font-size: 1rem;
+}
+
+
+@media (max-width: 600px) {
+  .topbar {
+    padding: 14px 16px;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+ .brand {
+  font-size: 0.72rem;
+}
+
+.brand img {
+  width: 25px;
+  height: 25px;
+}
+
+  .header-right {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr auto;
+    gap: 10px;
+  }
+
+  .header-right span {
+    grid-column: 1 / -1;
+    font-size: 0.9rem;
+  }
+
+  .header-right select {
+    width: 100%;
+  }
+
+  .logout-button {
+    padding: 8px 10px;
+  }
+
+  .intro {
+    padding: 30px 16px 22px;
+  }
+
+  .intro h1 {
+    font-size: 1.65rem;
+    line-height: 1.2;
+  }
+
+  .job-list {
+    padding: 0 16px 35px;
+  }
+
+  .job-card {
+    padding: 20px;
+    padding-top: 45px;
+  }
+
+  .company-section h2 {
+    font-size: 1.15rem;
+  }
+
+  .apply-button {
+    width: 100%;
+  }
+
+  .pagination {
+    gap: 5px;
+    padding-inline: 12px;
+  }
+
+  .pagination button {
+    min-width: 34px;
+    height: 34px;
+    padding: 0 8px;
+  }
+}
