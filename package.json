@@ -9,7 +9,7 @@
     "test": "ng test"
   },
   "engines": {
-    "node": ">=22.22.3"
+    "node": "22.22.3"
   },
   "private": true,
   "packageManager": "npm@11.17.0",
