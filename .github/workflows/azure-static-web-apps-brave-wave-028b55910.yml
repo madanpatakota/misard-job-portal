@@ -11,15 +11,24 @@ on:
 
 jobs:
   build_and_deploy_job:
+<<<<<<< HEAD
     if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
     runs-on: ubuntu-latest
+=======
+>>>>>>> e393e44248edd1e18167de975791975e86039407
     name: Build and Deploy Job
+    runs-on: ubuntu-latest
 
     steps:
+<<<<<<< HEAD
       - uses: actions/checkout@v4
         with:
           submodules: true
           lfs: false
+=======
+      - name: Checkout repository
+        uses: actions/checkout@v4
+>>>>>>> e393e44248edd1e18167de975791975e86039407
 
       - name: Use Node.js 24.19.0
         uses: actions/setup-node@v4
@@ -38,11 +47,15 @@ jobs:
         uses: Azure/static-web-apps-deploy@v1
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_BRAVE_WAVE_028B55910 }}
+<<<<<<< HEAD
           repo_token: ${{ secrets.GITHUB_TOKEN }}
+=======
+>>>>>>> e393e44248edd1e18167de975791975e86039407
           action: "upload"
           app_location: "dist/misard-job-portal/browser"
           api_location: ""
           output_location: ""
+<<<<<<< HEAD
           skip_app_build: true
 
   close_pull_request_job:
@@ -57,3 +70,5 @@ jobs:
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_BRAVE_WAVE_028B55910 }}
           action: "close"
+=======
+>>>>>>> e393e44248edd1e18167de975791975e86039407
