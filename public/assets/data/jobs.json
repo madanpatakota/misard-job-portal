@@ -8,73 +8,73 @@
   {
     "id": 2,
     "companyName": "Infosys",
-    "applyUrl": "https://www.infosys.com/careers.html",
+    "applyUrl": "https://career.infosys.com/joblist",
     "isVisible": true
   },
   {
     "id": 3,
     "companyName": "Wipro",
-    "applyUrl": "https://careers.wipro.com/",
+    "applyUrl": "https://careers.wipro.com/search/?q=.net&locationsearch=India",
     "isVisible": true
   },
   {
     "id": 4,
     "companyName": "HCLTech",
-    "applyUrl": "https://careers.hcltech.com/",
+    "applyUrl": "https://careers.hcltech.com/search-results?keywords=.net",
     "isVisible": true
   },
   {
     "id": 5,
     "companyName": "Tech Mahindra",
-    "applyUrl": "https://www.techmahindra.com/careers/",
+    "applyUrl": "https://careers.techmahindra.com/",
     "isVisible": true
   },
   {
     "id": 6,
     "companyName": "Cognizant",
-    "applyUrl": "https://careers.cognizant.com/",
+    "applyUrl": "https://careers.cognizant.com/global-en/jobs/?keyword=.net&location=India&radius=100&cname=India&ccode=IN",
     "isVisible": true
   },
   {
     "id": 7,
     "companyName": "Accenture",
-    "applyUrl": "https://www.accenture.com/in-en/careers",
+    "applyUrl": "https://www.accenture.com/in-en/careers/jobsearch?jk=.net&sb=1",
     "isVisible": true
   },
   {
     "id": 8,
     "companyName": "Capgemini",
-    "applyUrl": "https://www.capgemini.com/careers/",
+    "applyUrl": "https://www.capgemini.com/in-en/careers/join-capgemini/job-search/?search_term=.net",
     "isVisible": true
   },
   {
     "id": 9,
     "companyName": "LTIMindtree",
-    "applyUrl": "https://careers.ltm.com/",
+    "applyUrl": "https://careers.ltm.com/search/?q=.net&locationsearch=India",
     "isVisible": true
   },
   {
     "id": 10,
     "companyName": "Mphasis",
-    "applyUrl": "https://careers.mphasis.com/",
+    "applyUrl": "https://careers.mphasis.com/home/hot-jobs/skill-search/dotnet-jobs.html",
     "isVisible": true
   },
   {
     "id": 11,
     "companyName": "Persistent Systems",
-    "applyUrl": "https://www.persistent.com/careers/",
+    "applyUrl": "https://careers.persistent.com/",
     "isVisible": true
   },
   {
     "id": 12,
     "companyName": "Coforge",
-    "applyUrl": "https://www.coforge.com/careers",
+    "applyUrl": "https://careers.coforge.com/coforge/",
     "isVisible": true
   },
   {
     "id": 13,
     "companyName": "Birlasoft",
-    "applyUrl": "https://www.birlasoft.com/careers",
+    "applyUrl": "https://jobs.birlasoft.com/",
     "isVisible": true
   },
   {
@@ -86,7 +86,7 @@
   {
     "id": 15,
     "companyName": "Zensar Technologies",
-    "applyUrl": "https://www.zensar.com/careers",
+    "applyUrl": "https://fa-etvl-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?keyword=.net&mode=location",
     "isVisible": true
   },
   {
@@ -110,7 +110,7 @@
   {
     "id": 19,
     "companyName": "Happiest Minds",
-    "applyUrl": "https://careers.happiestminds.com/",
+    "applyUrl": "https://jobs.happiestminds.com/happiestminds/",
     "isVisible": true
   },
   {
@@ -128,7 +128,7 @@
   {
     "id": 22,
     "companyName": "YASH Technologies",
-    "applyUrl": "https://www.yash.com/about-us/career/",
+    "applyUrl": "https://careers.yash.com/viewalljobs/",
     "isVisible": true
   },
   {
@@ -146,14 +146,14 @@
   {
     "id": 25,
     "companyName": "Datamatics",
-    "applyUrl": "https://www.datamatics.com/careers",
+    "applyUrl": "https://www.datamatics.com/human-resources/job-openings",
     "isVisible": true
   },
   {
     "id": 26,
     "companyName": "Quess Corp",
     "applyUrl": "https://www.quesscorp.com/careers/",
-    "isVisible": true
+    "isVisible": false
   },
   {
     "id": 27,
@@ -164,31 +164,31 @@
   {
     "id": 28,
     "companyName": "Tata Elxsi",
-    "applyUrl": "https://www.tataelxsi.com/careers",
+    "applyUrl": "https://www.tataelxsi.com/careers/job-openings",
     "isVisible": true
   },
   {
     "id": 29,
     "companyName": "Quest Global",
-    "applyUrl": "https://www.quest-global.com/careers/",
+    "applyUrl": "https://careers.quest-global.com/global/en/search-results?keywords=.net",
     "isVisible": true
   },
   {
     "id": 30,
     "companyName": "Brillio",
-    "applyUrl": "https://www.brillio.com/careers/",
+    "applyUrl": "https://careers.brillio.com/job-listing",
     "isVisible": true
   },
   {
     "id": 31,
     "companyName": "NTT DATA",
-    "applyUrl": "https://careers.services.global.ntt/",
+    "applyUrl": "https://careers.nttdata.com/global/en/search-results?keywords=.net",
     "isVisible": true
   },
   {
     "id": 32,
     "companyName": "Genpact",
-    "applyUrl": "https://www.genpact.com/careers",
+    "applyUrl": "https://genpact.wd108.myworkdayjobs.com/External_Careers?q=.net",
     "isVisible": true
   },
   {
@@ -200,43 +200,43 @@
   {
     "id": 34,
     "companyName": "Sopra Steria",
-    "applyUrl": "https://careers.soprasteria.com/",
+    "applyUrl": "https://careers.soprasteria.com/jobs",
     "isVisible": true
   },
   {
     "id": 35,
     "companyName": "DXC Technology",
-    "applyUrl": "https://dxc.com/us/en/careers",
+    "applyUrl": "https://careers.dxc.com/job-search-results/",
     "isVisible": true
   },
   {
     "id": 36,
     "companyName": "Kyndryl",
-    "applyUrl": "https://www.kyndryl.com/us/en/careers",
+    "applyUrl": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylProfessionalCareers?q=.net",
     "isVisible": true
   },
   {
     "id": 37,
     "companyName": "Atos",
-    "applyUrl": "https://atos.net/en/careers",
+    "applyUrl": "https://jobs.atos.net/",
     "isVisible": true
   },
   {
     "id": 38,
     "companyName": "Sutherland",
     "applyUrl": "https://www.sutherlandglobal.com/careers",
-    "isVisible": true
+    "isVisible": false
   },
   {
     "id": 39,
     "companyName": "Concentrix",
     "applyUrl": "https://jobs.concentrix.com/",
-    "isVisible": true
+    "isVisible": false
   },
   {
     "id": 40,
     "companyName": "Amdocs",
-    "applyUrl": "https://www.amdocs.com/careers",
+    "applyUrl": "https://jobs.amdocs.com/careers?query=.net&domain=amdocs.com",
     "isVisible": true
   },
   {
@@ -248,13 +248,13 @@
   {
     "id": 42,
     "companyName": "EPAM Systems",
-    "applyUrl": "https://www.epam.com/careers",
+    "applyUrl": "https://www.epam.com/careers/job-listings?query=.net&country=India",
     "isVisible": true
   },
   {
     "id": 43,
     "companyName": "GlobalLogic",
-    "applyUrl": "https://www.globallogic.com/careers/",
+    "applyUrl": "https://www.globallogic.com/career-search-page/?keywords=.net",
     "isVisible": true
   },
   {
@@ -266,1537 +266,1345 @@
   {
     "id": 45,
     "companyName": "Publicis Sapient",
-    "applyUrl": "https://careers.publicissapient.com/",
+    "applyUrl": "https://careers.publicissapient.com/job-search",
     "isVisible": true
   },
   {
     "id": 46,
     "companyName": "Virtusa",
-    "applyUrl": "https://www.virtusa.com/careers",
+    "applyUrl": "https://www.virtusa.com/careers/job-search",
     "isVisible": true
   },
   {
     "id": 47,
     "companyName": "Movate",
     "applyUrl": "https://www.movate.com/careers/",
-    "isVisible": true
+    "isVisible": false
   },
   {
     "id": 48,
     "companyName": "WNS",
     "applyUrl": "https://www.wns.com/careers",
-    "isVisible": true
+    "isVisible": false
   },
   {
     "id": 49,
     "companyName": "Marlabs",
-    "applyUrl": "https://www.marlabs.com/careers/",
+    "applyUrl": "https://www.marlabs.com/openings",
     "isVisible": true
   },
   {
     "id": 50,
     "companyName": "Sasken Technologies",
     "applyUrl": "https://www.sasken.com/careers/",
+    "isVisible": false
+  },
+  {
+    "id": 51,
+    "companyName": "Deloitte",
+    "applyUrl": "https://www.deloitte.com/global/en/careers/job-search.html",
     "isVisible": true
   },
   {
-  "id": 51,
-  "companyName": "Deloitte",
-  "applyUrl": "https://www.deloitte.com/global/en/careers.html",
-  "isVisible": true
-},
-{
-  "id": 52,
-  "companyName": "EY",
-  "applyUrl": "https://www.ey.com/en_in/careers",
-  "isVisible": true
-},
-{
-  "id": 53,
-  "companyName": "KPMG",
-  "applyUrl": "https://kpmg.com/in/en/careers.html",
-  "isVisible": true
-},
-{
-  "id": 54,
-  "companyName": "PwC",
-  "applyUrl": "https://www.pwc.in/careers.html",
-  "isVisible": true
-},
-{
-  "id": 55,
-  "companyName": "IBM",
-  "applyUrl": "https://www.ibm.com/careers",
-  "isVisible": true
-},
-{
-  "id": 56,
-  "companyName": "Oracle",
-  "applyUrl": "https://careers.oracle.com/",
-  "isVisible": true
-},
-{
-  "id": 57,
-  "companyName": "SAP",
-  "applyUrl": "https://www.sap.com/india/about/careers.html",
-  "isVisible": true
-},
-{
-  "id": 58,
-  "companyName": "Microsoft",
-  "applyUrl": "https://careers.microsoft.com/",
-  "isVisible": true
-},
-{
-  "id": 59,
-  "companyName": "Siemens",
-  "applyUrl": "https://www.siemens.com/global/en/company/jobs.html",
-  "isVisible": true
-},
-{
-  "id": 60,
-  "companyName": "Bosch",
-  "applyUrl": "https://www.bosch.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 61,
-  "companyName": "Honeywell",
-  "applyUrl": "https://careers.honeywell.com/",
-  "isVisible": true
-},
-{
-  "id": 62,
-  "companyName": "Qualcomm",
-  "applyUrl": "https://www.qualcomm.com/company/careers",
-  "isVisible": true
-},
-{
-  "id": 63,
-  "companyName": "Cisco",
-  "applyUrl": "https://jobs.cisco.com/",
-  "isVisible": true
-},
-{
-  "id": 64,
-  "companyName": "Dell Technologies",
-  "applyUrl": "https://jobs.dell.com/",
-  "isVisible": true
-},
-{
-  "id": 65,
-  "companyName": "Intel",
-  "applyUrl": "https://www.intel.com/content/www/us/en/jobs/jobs-at-intel.html",
-  "isVisible": true
-},
-{
-  "id": 66,
-  "companyName": "AMD",
-  "applyUrl": "https://careers.amd.com/",
-  "isVisible": true
-},
-{
-  "id": 67,
-  "companyName": "NVIDIA",
-  "applyUrl": "https://www.nvidia.com/en-in/about-nvidia/careers/",
-  "isVisible": true
-},
-{
-  "id": 68,
-  "companyName": "Samsung R&D Institute India",
-  "applyUrl": "https://research.samsung.com/careers",
-  "isVisible": true
-},
-{
-  "id": 69,
-  "companyName": "LG Soft India",
-  "applyUrl": "https://www.lgsoftindia.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 70,
-  "companyName": "Nokia",
-  "applyUrl": "https://www.nokia.com/about-us/careers/",
-  "isVisible": true
-},
-{
-  "id": 71,
-  "companyName": "Ericsson",
-  "applyUrl": "https://www.ericsson.com/en/careers",
-  "isVisible": true
-},
-{
-  "id": 72,
-  "companyName": "Verizon",
-  "applyUrl": "https://mycareer.verizon.com/",
-  "isVisible": true
-},
-{
-  "id": 73,
-  "companyName": "ADP",
-  "applyUrl": "https://jobs.adp.com/",
-  "isVisible": true
-},
-{
-  "id": 74,
-  "companyName": "Thomson Reuters",
-  "applyUrl": "https://www.thomsonreuters.com/en/careers",
-  "isVisible": true
-},
-{
-  "id": 75,
-  "companyName": "FIS",
-  "applyUrl": "https://www.fisglobal.com/en/careers",
-  "isVisible": true
-},
-{
-  "id": 76,
-  "companyName": "Fiserv",
-  "applyUrl": "https://www.careers.fiserv.com/",
-  "isVisible": true
-},
-{
-  "id": 77,
-  "companyName": "Equifax",
-  "applyUrl": "https://www.equifax.com/about-equifax/careers/",
-  "isVisible": true
-},
-{
-  "id": 78,
-  "companyName": "Visa",
-  "applyUrl": "https://corporate.visa.com/en/careers.html",
-  "isVisible": true
-},
-{
-  "id": 79,
-  "companyName": "Mastercard",
-  "applyUrl": "https://careers.mastercard.com/",
-  "isVisible": true
-},
-{
-  "id": 80,
-  "companyName": "American Express",
-  "applyUrl": "https://www.americanexpress.com/en-us/careers/",
-  "isVisible": true
-},
-{
-  "id": 81,
-  "companyName": "JPMorgan Chase",
-  "applyUrl": "https://www.jpmorganchase.com/careers",
-  "isVisible": true
-},
-{
-  "id": 82,
-  "companyName": "Wells Fargo",
-  "applyUrl": "https://www.wellsfargojobs.com/",
-  "isVisible": true
-},
-{
-  "id": 83,
-  "companyName": "Citi",
-  "applyUrl": "https://jobs.citi.com/",
-  "isVisible": true
-},
-{
-  "id": 84,
-  "companyName": "Barclays",
-  "applyUrl": "https://search.jobs.barclays/",
-  "isVisible": true
-},
-{
-  "id": 85,
-  "companyName": "Deutsche Bank",
-  "applyUrl": "https://careers.db.com/",
-  "isVisible": true
-},
-{
-  "id": 86,
-  "companyName": "HSBC",
-  "applyUrl": "https://www.hsbc.com/careers",
-  "isVisible": true
-},
-{
-  "id": 87,
-  "companyName": "Standard Chartered",
-  "applyUrl": "https://www.sc.com/en/global-careers/",
-  "isVisible": true
-},
-{
-  "id": 88,
-  "companyName": "UBS",
-  "applyUrl": "https://www.ubs.com/global/en/careers.html",
-  "isVisible": true
-},
-{
-  "id": 89,
-  "companyName": "BNY",
-  "applyUrl": "https://www.bny.com/corporate/global/en/careers.html",
-  "isVisible": true
-},
-{
-  "id": 90,
-  "companyName": "State Street",
-  "applyUrl": "https://careers.statestreet.com/",
-  "isVisible": true
-},
-{
-  "id": 91,
-  "companyName": "Northern Trust",
-  "applyUrl": "https://careers.northerntrust.com/",
-  "isVisible": true
-},
-{
-  "id": 92,
-  "companyName": "Goldman Sachs",
-  "applyUrl": "https://www.goldmansachs.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 93,
-  "companyName": "Morgan Stanley",
-  "applyUrl": "https://www.morganstanley.com/careers",
-  "isVisible": true
-},
-{
-  "id": 94,
-  "companyName": "PayPal",
-  "applyUrl": "https://careers.pypl.com/",
-  "isVisible": true
-},
-{
-  "id": 95,
-  "companyName": "Walmart Global Tech",
-  "applyUrl": "https://tech.walmart.com/content/walmart-global-tech/en_us/careers.html",
-  "isVisible": true
-},
-{
-  "id": 96,
-  "companyName": "Target",
-  "applyUrl": "https://corporate.target.com/careers",
-  "isVisible": true
-},
-{
-  "id": 97,
-  "companyName": "Tesco",
-  "applyUrl": "https://www.tesco-careers.com/",
-  "isVisible": true
-},
-{
-  "id": 98,
-  "companyName": "Lowe's",
-  "applyUrl": "https://talent.lowes.com/",
-  "isVisible": true
-},
-{
-  "id": 99,
-  "companyName": "Optum",
-  "applyUrl": "https://www.optum.com/careers.html",
-  "isVisible": true
-},
-{
-  "id": 100,
-  "companyName": "Cigna Healthcare",
-  "applyUrl": "https://jobs.thecignagroup.com/",
-  "isVisible": true
-},
-{
-  "id": 101,
-  "companyName": "Infor",
-  "applyUrl": "https://www.infor.com/careers",
-  "isVisible": true
-},
-{
-  "id": 102,
-  "companyName": "OpenText",
-  "applyUrl": "https://www.opentext.com/careers",
-  "isVisible": true
-},
-{
-  "id": 103,
-  "companyName": "Pegasystems",
-  "applyUrl": "https://www.pega.com/about/careers",
-  "isVisible": true
-},
-{
-  "id": 104,
-  "companyName": "Western Digital",
-  "applyUrl": "https://www.westerndigital.com/company/careers",
-  "isVisible": true
-},
-{
-  "id": 105,
-  "companyName": "Micron Technology",
-  "applyUrl": "https://careers.micron.com/",
-  "isVisible": true
-},
-{
-  "id": 106,
-  "companyName": "Applied Materials",
-  "applyUrl": "https://careers.appliedmaterials.com/",
-  "isVisible": true
-},
-{
-  "id": 107,
-  "companyName": "Lam Research",
-  "applyUrl": "https://careers.lamresearch.com/",
-  "isVisible": true
-},
-{
-  "id": 108,
-  "companyName": "Synopsys",
-  "applyUrl": "https://www.synopsys.com/careers.html",
-  "isVisible": true
-},
-{
-  "id": 109,
-  "companyName": "Cadence",
-  "applyUrl": "https://careers.cadence.com/",
-  "isVisible": true
-},
-{
-  "id": 110,
-  "companyName": "NXP Semiconductors",
-  "applyUrl": "https://www.nxp.com/company/about-nxp/careers:CAREERS",
-  "isVisible": true
-},
-{
-  "id": 111,
-  "companyName": "Texas Instruments",
-  "applyUrl": "https://careers.ti.com/",
-  "isVisible": true
-},
-{
-  "id": 112,
-  "companyName": "Continental",
-  "applyUrl": "https://www.continental.com/en/career/",
-  "isVisible": true
-},
-{
-  "id": 113,
-  "companyName": "Mercedes-Benz Research and Development India",
-  "applyUrl": "https://group.mercedes-benz.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 114,
-  "companyName": "Volvo Group",
-  "applyUrl": "https://www.volvogroup.com/en/careers.html",
-  "isVisible": true
-},
-{
-  "id": 115,
-  "companyName": "Ford Motor Company",
-  "applyUrl": "https://corporate.ford.com/careers.html",
-  "isVisible": true
-},
-{
-  "id": 116,
-  "companyName": "Renault Nissan Technology and Business Centre India",
-  "applyUrl": "https://www.renaultgroup.com/en/careers/",
-  "isVisible": true
-},
-{
-  "id": 117,
-  "companyName": "Hyundai AutoEver India",
-  "applyUrl": "https://www.hyundai-autoever.com/eng/recruit/recruitment.hd",
-  "isVisible": true
-},
-{
-  "id": 118,
-  "companyName": "Airbus",
-  "applyUrl": "https://www.airbus.com/en/careers",
-  "isVisible": true
-},
-{
-  "id": 119,
-  "companyName": "GE Vernova",
-  "applyUrl": "https://careers.gevernova.com/",
-  "isVisible": true
-},
-{
-  "id": 120,
-  "companyName": "Schneider Electric",
-  "applyUrl": "https://www.se.com/in/en/about-us/careers/",
-  "isVisible": true
-},
-{
-  "id": 121,
-  "companyName": "ABB",
-  "applyUrl": "https://careers.abb/global/en",
-  "isVisible": true
-},
-{
-  "id": 122,
-  "companyName": "Emerson",
-  "applyUrl": "https://www.emerson.com/en-in/careers",
-  "isVisible": true
-},
-{
-  "id": 123,
-  "companyName": "Rockwell Automation",
-  "applyUrl": "https://www.rockwellautomation.com/en-in/company/careers.html",
-  "isVisible": true
-},
-{
-  "id": 124,
-  "companyName": "Carrier",
-  "applyUrl": "https://jobs.carrier.com/",
-  "isVisible": true
-},
-{
-  "id": 125,
-  "companyName": "Philips",
-  "applyUrl": "https://www.careers.philips.com/",
-  "isVisible": true
-},
-{
-  "id": 126,
-  "companyName": "Stryker",
-  "applyUrl": "https://careers.stryker.com/",
-  "isVisible": true
-},
-{
-  "id": 127,
-  "companyName": "Medtronic",
-  "applyUrl": "https://jobs.medtronic.com/",
-  "isVisible": true
-},
-{
-  "id": 128,
-  "companyName": "Roche",
-  "applyUrl": "https://careers.roche.com/",
-  "isVisible": true
-},
-{
-  "id": 129,
-  "companyName": "Novartis",
-  "applyUrl": "https://www.novartis.com/careers",
-  "isVisible": true
-},
-{
-  "id": 130,
-  "companyName": "GSK",
-  "applyUrl": "https://www.gsk.com/en-gb/careers/",
-  "isVisible": true
-},
-{
-  "id": 131,
-  "companyName": "AstraZeneca",
-  "applyUrl": "https://careers.astrazeneca.com/",
-  "isVisible": true
-},
-{
-  "id": 132,
-  "companyName": "Bayer",
-  "applyUrl": "https://www.bayer.com/en/careers",
-  "isVisible": true
-},
-{
-  "id": 133,
-  "companyName": "Sanofi",
-  "applyUrl": "https://jobs.sanofi.com/",
-  "isVisible": true
-},
-{
-  "id": 134,
-  "companyName": "Pfizer",
-  "applyUrl": "https://www.pfizer.com/about/careers",
-  "isVisible": true
-},
-{
-  "id": 135,
-  "companyName": "IQVIA",
-  "applyUrl": "https://jobs.iqvia.com/",
-  "isVisible": true
-},
-{
-  "id": 136,
-  "companyName": "Thermo Fisher Scientific",
-  "applyUrl": "https://jobs.thermofisher.com/",
-  "isVisible": true
-},
-{
-  "id": 137,
-  "companyName": "Clarivate",
-  "applyUrl": "https://careers.clarivate.com/",
-  "isVisible": true
-},
-{
-  "id": 138,
-  "companyName": "Elsevier",
-  "applyUrl": "https://www.elsevier.com/about/careers",
-  "isVisible": true
-},
-{
-  "id": 139,
-  "companyName": "Moody's",
-  "applyUrl": "https://careers.moodys.com/",
-  "isVisible": true
-},
-{
-  "id": 140,
-  "companyName": "S&P Global",
-  "applyUrl": "https://careers.spglobal.com/",
-  "isVisible": true
-},
-{
-  "id": 141,
-  "companyName": "NielsenIQ",
-  "applyUrl": "https://careers.nielseniq.com/",
-  "isVisible": true
-},
-{
-  "id": 142,
-  "companyName": "Dun & Bradstreet",
-  "applyUrl": "https://careers.dnb.com/",
-  "isVisible": true
-},
-{
-  "id": 143,
-  "companyName": "TransUnion",
-  "applyUrl": "https://www.transunion.com/careers",
-  "isVisible": true
-},
-{
-  "id": 144,
-  "companyName": "FactSet",
-  "applyUrl": "https://www.factset.com/careers",
-  "isVisible": true
-},
-{
-  "id": 145,
-  "companyName": "Morningstar",
-  "applyUrl": "https://www.morningstar.com/careers",
-  "isVisible": true
-},
-{
-  "id": 146,
-  "companyName": "Fidelity Investments",
-  "applyUrl": "https://jobs.fidelity.com/",
-  "isVisible": true
-},
-{
-  "id": 147,
-  "companyName": "Synchrony",
-  "applyUrl": "https://www.synchronycareers.com/",
-  "isVisible": true
-},
-{
-  "id": 148,
-  "companyName": "Alight Solutions",
-  "applyUrl": "https://careers.alight.com/",
-  "isVisible": true
-},
-{
-  "id": 149,
-  "companyName": "Wolters Kluwer",
-  "applyUrl": "https://careers.wolterskluwer.com/",
-  "isVisible": true
-},
-{
-  "id": 150,
-  "companyName": "Kantar",
-  "applyUrl": "https://www.kantar.com/careers",
-  "isVisible": true
-},
-{
-  "id": 151,
-  "companyName": "Altimetrik",
-  "applyUrl": "https://www.altimetrik.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 152,
-  "companyName": "Encora",
-  "applyUrl": "https://www.encora.com/careers",
-  "isVisible": true
-},
-{
-  "id": 153,
-  "companyName": "SoftServe",
-  "applyUrl": "https://career.softserveinc.com/en-us",
-  "isVisible": true
-},
-{
-  "id": 154,
-  "companyName": "Luxoft",
-  "applyUrl": "https://career.luxoft.com/",
-  "isVisible": true
-},
-{
-  "id": 155,
-  "companyName": "Endava",
-  "applyUrl": "https://www.endava.com/careers",
-  "isVisible": true
-},
-{
-  "id": 156,
-  "companyName": "Xoriant",
-  "applyUrl": "https://www.xoriant.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 157,
-  "companyName": "P99Soft",
-  "applyUrl": "https://www.p99soft.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 158,
-  "companyName": "Ciklum",
-  "applyUrl": "https://www.ciklum.com/careers",
-  "isVisible": true
-},
-{
-  "id": 159,
-  "companyName": "Unisys",
-  "applyUrl": "https://www.unisys.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 160,
-  "companyName": "Hinduja Global Solutions",
-  "applyUrl": "https://www.teamhgs.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 161,
-  "companyName": "Firstsource",
-  "applyUrl": "https://www.firstsource.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 162,
-  "companyName": "eClerx",
-  "applyUrl": "https://eclerx.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 163,
-  "companyName": "EXL",
-  "applyUrl": "https://www.exlservice.com/careers",
-  "isVisible": true
-},
-{
-  "id": 164,
-  "companyName": "R1 RCM",
-  "applyUrl": "https://www.r1rcm.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 165,
-  "companyName": "Gainwell Technologies",
-  "applyUrl": "https://www.gainwelltechnologies.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 166,
-  "companyName": "Zeta",
-  "applyUrl": "https://www.zeta.tech/careers/",
-  "isVisible": true
-},
-{
-  "id": 167,
-  "companyName": "Razorpay",
-  "applyUrl": "https://razorpay.com/jobs/",
-  "isVisible": true
-},
-{
-  "id": 168,
-  "companyName": "PhonePe",
-  "applyUrl": "https://www.phonepe.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 169,
-  "companyName": "Flipkart",
-  "applyUrl": "https://www.flipkartcareers.com/",
-  "isVisible": true
-},
-{
-  "id": 170,
-  "companyName": "Meesho",
-  "applyUrl": "https://www.meesho.io/careers",
-  "isVisible": true
-},
-{
-  "id": 171,
-  "companyName": "Swiggy",
-  "applyUrl": "https://careers.swiggy.com/",
-  "isVisible": true
-},
-{
-  "id": 172,
-  "companyName": "Ola",
-  "applyUrl": "https://www.olacabs.com/careers",
-  "isVisible": true
-},
-{
-  "id": 173,
-  "companyName": "MakeMyTrip",
-  "applyUrl": "https://careers.makemytrip.com/",
-  "isVisible": true
-},
-{
-  "id": 174,
-  "companyName": "Goibibo",
-  "applyUrl": "https://careers.makemytrip.com/",
-  "isVisible": true
-},
-{
-  "id": 175,
-  "companyName": "Jio Platforms",
-  "applyUrl": "https://careers.jio.com/",
-  "isVisible": true
-},
-{
-  "id": 176,
-  "companyName": "Airtel",
-  "applyUrl": "https://www.airtel.in/careers/",
-  "isVisible": true
-},
-{
-  "id": 177,
-  "companyName": "Vodafone Idea",
-  "applyUrl": "https://www.myvi.in/careers",
-  "isVisible": true
-},
-{
-  "id": 178,
-  "companyName": "Tata Communications",
-  "applyUrl": "https://www.tatacommunications.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 179,
-  "companyName": "Netcracker",
-  "applyUrl": "https://www.netcracker.com/careers.html",
-  "isVisible": true
-},
-{
-  "id": 180,
-  "companyName": "Comviva",
-  "applyUrl": "https://www.comviva.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 181,
-  "companyName": "Tejas Networks",
-  "applyUrl": "https://www.tejasnetworks.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 182,
-  "companyName": "Freshworks",
-  "applyUrl": "https://www.freshworks.com/company/careers/",
-  "isVisible": true
-},
-{
-  "id": 183,
-  "companyName": "Zoho",
-  "applyUrl": "https://careers.zohocorp.com/",
-  "isVisible": true
-},
-{
-  "id": 184,
-  "companyName": "BrowserStack",
-  "applyUrl": "https://www.browserstack.com/careers",
-  "isVisible": true
-},
-{
-  "id": 185,
-  "companyName": "Postman",
-  "applyUrl": "https://www.postman.com/company/careers/",
-  "isVisible": true
-},
-{
-  "id": 186,
-  "companyName": "Chargebee",
-  "applyUrl": "https://www.chargebee.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 187,
-  "companyName": "CRED",
-  "applyUrl": "https://careers.cred.club/",
-  "isVisible": true
-},
-{
-  "id": 188,
-  "companyName": "Dream Sports",
-  "applyUrl": "https://www.dreamsports.group/careers/",
-  "isVisible": true
-},
-{
-  "id": 189,
-  "companyName": "InMobi",
-  "applyUrl": "https://www.inmobi.com/careers",
-  "isVisible": true
-},
-{
-  "id": 190,
-  "companyName": "Gameskraft",
-  "applyUrl": "https://www.gameskraft.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 191,
-  "companyName": "MPL",
-  "applyUrl": "https://www.mpl.live/careers",
-  "isVisible": true
-},
-{
-  "id": 192,
-  "companyName": "Policybazaar",
-  "applyUrl": "https://www.policybazaar.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 193,
-  "companyName": "Nykaa",
-  "applyUrl": "https://www.nykaa.com/careers",
-  "isVisible": true
-},
-{
-  "id": 194,
-  "companyName": "Zomato",
-  "applyUrl": "https://www.zomato.com/careers",
-  "isVisible": true
-},
-{
-  "id": 195,
-  "companyName": "OYO",
-  "applyUrl": "https://www.oyorooms.com/careers",
-  "isVisible": true
-},
-{
-  "id": 196,
-  "companyName": "NoBroker",
-  "applyUrl": "https://www.nobroker.in/careers",
-  "isVisible": true
-},
-{
-  "id": 197,
-  "companyName": "Urban Company",
-  "applyUrl": "https://www.urbancompany.com/careers",
-  "isVisible": true
-},
-{
-  "id": 198,
-  "companyName": "CarDekho",
-  "applyUrl": "https://www.cardekho.com/careers",
-  "isVisible": true
-},
-{
-  "id": 199,
-  "companyName": "PharmEasy",
-  "applyUrl": "https://pharmeasy.in/careers",
-  "isVisible": true
-},
-{
-  "id": 200,
-  "companyName": "Simplilearn",
-  "applyUrl": "https://www.simplilearn.com/careers",
-  "isVisible": true
-},
-{
-  "id": 201,
-  "companyName": "Newgen Software",
-  "applyUrl": "https://newgensoft.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 202,
-  "companyName": "Nucleus Software",
-  "applyUrl": "https://www.nucleussoftware.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 203,
-  "companyName": "3i Infotech",
-  "applyUrl": "https://www.3i-infotech.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 204,
-  "companyName": "Sify Technologies",
-  "applyUrl": "https://www.sifytechnologies.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 205,
-  "companyName": "R Systems",
-  "applyUrl": "https://www.rsystems.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 206,
-  "companyName": "Kellton",
-  "applyUrl": "https://www.kellton.com/careers",
-  "isVisible": true
-},
-{
-  "id": 207,
-  "companyName": "Aurionpro",
-  "applyUrl": "https://www.aurionpro.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 208,
-  "companyName": "Ramco Systems",
-  "applyUrl": "https://www.ramco.com/careers",
-  "isVisible": true
-},
-{
-  "id": 209,
-  "companyName": "Tanla Platforms",
-  "applyUrl": "https://www.tanla.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 210,
-  "companyName": "CMS IT Services",
-  "applyUrl": "https://www.cmsitservices.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 211,
-  "companyName": "Motherson Technology Services",
-  "applyUrl": "https://www.mothersontechnology.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 212,
-  "companyName": "L&T Infotech",
-  "applyUrl": "https://careers.ltm.com/",
-  "isVisible": true
-},
-{
-  "id": 213,
-  "companyName": "Pyramid Consulting",
-  "applyUrl": "https://www.pyramidci.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 214,
-  "companyName": "CitiusTech",
-  "applyUrl": "https://www.citiustech.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 215,
-  "companyName": "Maven Wave",
-  "applyUrl": "https://www.mavenwave.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 216,
-  "companyName": "Prodapt",
-  "applyUrl": "https://www.prodapt.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 217,
-  "companyName": "Mindsprint",
-  "applyUrl": "https://www.mindsprint.org/careers/",
-  "isVisible": true
-},
-{
-  "id": 218,
-  "companyName": "Quantiphi",
-  "applyUrl": "https://quantiphi.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 219,
-  "companyName": "Cognizant Softvision",
-  "applyUrl": "https://careers.cognizant.com/",
-  "isVisible": true
-},
-{
-  "id": 220,
-  "companyName": "SLK Software",
-  "applyUrl": "https://www.slksoftware.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 221,
-  "companyName": "Rapyder Cloud Solutions",
-  "applyUrl": "https://www.rapyder.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 222,
-  "companyName": "CloudThat",
-  "applyUrl": "https://www.cloudthat.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 223,
-  "companyName": "O9 Solutions",
-  "applyUrl": "https://o9solutions.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 224,
-  "companyName": "N-iX",
-  "applyUrl": "https://www.n-ix.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 225,
-  "companyName": "Bounteous",
-  "applyUrl": "https://www.bounteous.com/careers",
-  "isVisible": true
-},
-{
-  "id": 226,
-  "companyName": "Horizontal Digital",
-  "applyUrl": "https://www.horizontaldigital.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 227,
-  "companyName": "TA Digital",
-  "applyUrl": "https://www.tadigital.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 228,
-  "companyName": "InfoBeans",
-  "applyUrl": "https://www.infobeans.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 229,
-  "companyName": "Simform",
-  "applyUrl": "https://www.simform.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 230,
-  "companyName": "Nagarro MBC",
-  "applyUrl": "https://www.nagarro.com/en/careers",
-  "isVisible": true
-},
-{
-  "id": 231,
-  "companyName": "Fynd",
-  "applyUrl": "https://www.fynd.com/careers",
-  "isVisible": true
-},
-{
-  "id": 232,
-  "companyName": "Udaan",
-  "applyUrl": "https://udaan.com/careers",
-  "isVisible": true
-},
-{
-  "id": 233,
-  "companyName": "Licious",
-  "applyUrl": "https://www.licious.in/careers",
-  "isVisible": true
-},
-{
-  "id": 234,
-  "companyName": "Myntra",
-  "applyUrl": "https://www.myntra.com/careers",
-  "isVisible": true
-},
-{
-  "id": 235,
-  "companyName": "Tata 1mg",
-  "applyUrl": "https://www.1mg.com/careers",
-  "isVisible": true
-},
-{
-  "id": 236,
-  "companyName": "BigBasket",
-  "applyUrl": "https://careers.bigbasket.com/",
-  "isVisible": true
-},
-{
-  "id": 237,
-  "companyName": "Ather Energy",
-  "applyUrl": "https://www.atherenergy.com/careers",
-  "isVisible": true
-},
-{
-  "id": 238,
-  "companyName": "Ola Electric",
-  "applyUrl": "https://www.olaelectric.com/careers",
-  "isVisible": true
-},
-{
-  "id": 239,
-  "companyName": "Tata Digital",
-  "applyUrl": "https://www.tatadigital.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 240,
-  "companyName": "Tata Neu",
-  "applyUrl": "https://www.tatadigital.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 241,
-  "companyName": "Bajaj Finserv",
-  "applyUrl": "https://www.bajajfinserv.in/careers",
-  "isVisible": true
-},
-{
-  "id": 242,
-  "companyName": "HDFC Bank",
-  "applyUrl": "https://www.hdfcbank.com/personal/about-us/careers",
-  "isVisible": true
-},
-{
-  "id": 243,
-  "companyName": "ICICI Bank",
-  "applyUrl": "https://www.icicibank.com/careers",
-  "isVisible": true
-},
-{
-  "id": 244,
-  "companyName": "Axis Bank",
-  "applyUrl": "https://www.axisbank.com/careers",
-  "isVisible": true
-},
-{
-  "id": 245,
-  "companyName": "Kotak Mahindra Bank",
-  "applyUrl": "https://www.kotak.com/en/careers.html",
-  "isVisible": true
-},
-{
-  "id": 246,
-  "companyName": "IDFC FIRST Bank",
-  "applyUrl": "https://www.idfcfirstbank.com/careers",
-  "isVisible": true
-},
-{
-  "id": 247,
-  "companyName": "BharatPe",
-  "applyUrl": "https://bharatpe.com/careers",
-  "isVisible": true
-},
-{
-  "id": 248,
-  "companyName": "Pine Labs",
-  "applyUrl": "https://www.pinelabs.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 249,
-  "companyName": "MobiKwik",
-  "applyUrl": "https://www.mobikwik.com/careers",
-  "isVisible": true
-},
-{
-  "id": 250,
-  "companyName": "Groww",
-  "applyUrl": "https://groww.in/careers",
-  "isVisible": true
-},
-{
-  "id": 201,
-  "companyName": "Newgen Software",
-  "applyUrl": "https://newgensoft.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 202,
-  "companyName": "Nucleus Software",
-  "applyUrl": "https://www.nucleussoftware.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 203,
-  "companyName": "3i Infotech",
-  "applyUrl": "https://www.3i-infotech.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 204,
-  "companyName": "Sify Technologies",
-  "applyUrl": "https://www.sifytechnologies.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 205,
-  "companyName": "R Systems",
-  "applyUrl": "https://www.rsystems.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 206,
-  "companyName": "Kellton",
-  "applyUrl": "https://www.kellton.com/careers",
-  "isVisible": true
-},
-{
-  "id": 207,
-  "companyName": "Aurionpro",
-  "applyUrl": "https://www.aurionpro.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 208,
-  "companyName": "Ramco Systems",
-  "applyUrl": "https://www.ramco.com/careers",
-  "isVisible": true
-},
-{
-  "id": 209,
-  "companyName": "Tanla Platforms",
-  "applyUrl": "https://www.tanla.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 210,
-  "companyName": "CMS IT Services",
-  "applyUrl": "https://www.cmsitservices.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 211,
-  "companyName": "Motherson Technology Services",
-  "applyUrl": "https://www.mothersontechnology.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 212,
-  "companyName": "L&T Infotech",
-  "applyUrl": "https://careers.ltm.com/",
-  "isVisible": true
-},
-{
-  "id": 213,
-  "companyName": "Pyramid Consulting",
-  "applyUrl": "https://www.pyramidci.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 214,
-  "companyName": "CitiusTech",
-  "applyUrl": "https://www.citiustech.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 215,
-  "companyName": "Maven Wave",
-  "applyUrl": "https://www.mavenwave.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 216,
-  "companyName": "Prodapt",
-  "applyUrl": "https://www.prodapt.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 217,
-  "companyName": "Mindsprint",
-  "applyUrl": "https://www.mindsprint.org/careers/",
-  "isVisible": true
-},
-{
-  "id": 218,
-  "companyName": "Quantiphi",
-  "applyUrl": "https://quantiphi.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 219,
-  "companyName": "Cognizant Softvision",
-  "applyUrl": "https://careers.cognizant.com/",
-  "isVisible": true
-},
-{
-  "id": 220,
-  "companyName": "SLK Software",
-  "applyUrl": "https://www.slksoftware.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 221,
-  "companyName": "Rapyder Cloud Solutions",
-  "applyUrl": "https://www.rapyder.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 222,
-  "companyName": "CloudThat",
-  "applyUrl": "https://www.cloudthat.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 223,
-  "companyName": "O9 Solutions",
-  "applyUrl": "https://o9solutions.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 224,
-  "companyName": "N-iX",
-  "applyUrl": "https://www.n-ix.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 225,
-  "companyName": "Bounteous",
-  "applyUrl": "https://www.bounteous.com/careers",
-  "isVisible": true
-},
-{
-  "id": 226,
-  "companyName": "Horizontal Digital",
-  "applyUrl": "https://www.horizontaldigital.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 227,
-  "companyName": "TA Digital",
-  "applyUrl": "https://www.tadigital.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 228,
-  "companyName": "InfoBeans",
-  "applyUrl": "https://www.infobeans.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 229,
-  "companyName": "Simform",
-  "applyUrl": "https://www.simform.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 230,
-  "companyName": "Nagarro MBC",
-  "applyUrl": "https://www.nagarro.com/en/careers",
-  "isVisible": true
-},
-{
-  "id": 231,
-  "companyName": "Fynd",
-  "applyUrl": "https://www.fynd.com/careers",
-  "isVisible": true
-},
-{
-  "id": 232,
-  "companyName": "Udaan",
-  "applyUrl": "https://udaan.com/careers",
-  "isVisible": true
-},
-{
-  "id": 233,
-  "companyName": "Licious",
-  "applyUrl": "https://www.licious.in/careers",
-  "isVisible": true
-},
-{
-  "id": 234,
-  "companyName": "Myntra",
-  "applyUrl": "https://www.myntra.com/careers",
-  "isVisible": true
-},
-{
-  "id": 235,
-  "companyName": "Tata 1mg",
-  "applyUrl": "https://www.1mg.com/careers",
-  "isVisible": true
-},
-{
-  "id": 236,
-  "companyName": "BigBasket",
-  "applyUrl": "https://careers.bigbasket.com/",
-  "isVisible": true
-},
-{
-  "id": 237,
-  "companyName": "Ather Energy",
-  "applyUrl": "https://www.atherenergy.com/careers",
-  "isVisible": true
-},
-{
-  "id": 238,
-  "companyName": "Ola Electric",
-  "applyUrl": "https://www.olaelectric.com/careers",
-  "isVisible": true
-},
-{
-  "id": 239,
-  "companyName": "Tata Digital",
-  "applyUrl": "https://www.tatadigital.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 240,
-  "companyName": "Tata Neu",
-  "applyUrl": "https://www.tatadigital.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 241,
-  "companyName": "Bajaj Finserv",
-  "applyUrl": "https://www.bajajfinserv.in/careers",
-  "isVisible": true
-},
-{
-  "id": 242,
-  "companyName": "HDFC Bank",
-  "applyUrl": "https://www.hdfcbank.com/personal/about-us/careers",
-  "isVisible": true
-},
-{
-  "id": 243,
-  "companyName": "ICICI Bank",
-  "applyUrl": "https://www.icicibank.com/careers",
-  "isVisible": true
-},
-{
-  "id": 244,
-  "companyName": "Axis Bank",
-  "applyUrl": "https://www.axisbank.com/careers",
-  "isVisible": true
-},
-{
-  "id": 245,
-  "companyName": "Kotak Mahindra Bank",
-  "applyUrl": "https://www.kotak.com/en/careers.html",
-  "isVisible": true
-},
-{
-  "id": 246,
-  "companyName": "IDFC FIRST Bank",
-  "applyUrl": "https://www.idfcfirstbank.com/careers",
-  "isVisible": true
-},
-{
-  "id": 247,
-  "companyName": "BharatPe",
-  "applyUrl": "https://bharatpe.com/careers",
-  "isVisible": true
-},
-{
-  "id": 248,
-  "companyName": "Pine Labs",
-  "applyUrl": "https://www.pinelabs.com/careers/",
-  "isVisible": true
-},
-{
-  "id": 249,
-  "companyName": "MobiKwik",
-  "applyUrl": "https://www.mobikwik.com/careers",
-  "isVisible": true
-},
-{
-  "id": 250,
-  "companyName": "Groww",
-  "applyUrl": "https://groww.in/careers",
-  "isVisible": true
-}
+    "id": 52,
+    "companyName": "EY",
+    "applyUrl": "https://careers.ey.com/ey/search/?q=.net&locationsearch=India",
+    "isVisible": true
+  },
+  {
+    "id": 53,
+    "companyName": "KPMG",
+    "applyUrl": "https://kpmg.com/in/en/careers.html",
+    "isVisible": true
+  },
+  {
+    "id": 54,
+    "companyName": "PwC",
+    "applyUrl": "https://www.pwc.in/careers/experienced-jobs.html",
+    "isVisible": true
+  },
+  {
+    "id": 55,
+    "companyName": "IBM",
+    "applyUrl": "https://www.ibm.com/careers/search?q=.net",
+    "isVisible": true
+  },
+  {
+    "id": 56,
+    "companyName": "Oracle",
+    "applyUrl": "https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=.net&location=India",
+    "isVisible": true
+  },
+  {
+    "id": 57,
+    "companyName": "SAP",
+    "applyUrl": "https://www.sap.com/india/about/careers.html",
+    "isVisible": false
+  },
+  {
+    "id": 58,
+    "companyName": "Microsoft",
+    "applyUrl": "https://apply.careers.microsoft.com/careers?query=.net&location=India",
+    "isVisible": true
+  },
+  {
+    "id": 59,
+    "companyName": "Siemens",
+    "applyUrl": "https://jobs.siemens.com/careers?query=.net&location=India",
+    "isVisible": true
+  },
+  {
+    "id": 60,
+    "companyName": "Bosch",
+    "applyUrl": "https://jobs.bosch.com/en/?search=.net&country=in",
+    "isVisible": true
+  },
+  {
+    "id": 61,
+    "companyName": "Honeywell",
+    "applyUrl": "https://careers.honeywell.com/en/sites/Honeywell/jobs?keyword=.net&mode=location",
+    "isVisible": true
+  },
+  {
+    "id": 62,
+    "companyName": "Qualcomm",
+    "applyUrl": "https://www.qualcomm.com/company/careers",
+    "isVisible": false
+  },
+  {
+    "id": 63,
+    "companyName": "Cisco",
+    "applyUrl": "https://careers.cisco.com/global/en/search-results?keywords=.net",
+    "isVisible": true
+  },
+  {
+    "id": 64,
+    "companyName": "Dell Technologies",
+    "applyUrl": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/jobs?keyword=.net&mode=location",
+    "isVisible": true
+  },
+  {
+    "id": 65,
+    "companyName": "Intel",
+    "applyUrl": "https://www.intel.com/content/www/us/en/jobs/jobs-at-intel.html",
+    "isVisible": false
+  },
+  {
+    "id": 66,
+    "companyName": "AMD",
+    "applyUrl": "https://careers.amd.com/",
+    "isVisible": false
+  },
+  {
+    "id": 67,
+    "companyName": "NVIDIA",
+    "applyUrl": "https://www.nvidia.com/en-in/about-nvidia/careers/",
+    "isVisible": false
+  },
+  {
+    "id": 68,
+    "companyName": "Samsung R&D Institute India",
+    "applyUrl": "https://research.samsung.com/careers",
+    "isVisible": false
+  },
+  {
+    "id": 69,
+    "companyName": "LG Soft India",
+    "applyUrl": "https://www.lgsoftindia.com/careers/",
+    "isVisible": false
+  },
+  {
+    "id": 70,
+    "companyName": "Nokia",
+    "applyUrl": "https://www.nokia.com/about-us/careers/",
+    "isVisible": false
+  },
+  {
+    "id": 71,
+    "companyName": "Ericsson",
+    "applyUrl": "https://www.ericsson.com/en/careers",
+    "isVisible": false
+  },
+  {
+    "id": 72,
+    "companyName": "Verizon",
+    "applyUrl": "https://mycareer.verizon.com/",
+    "isVisible": true
+  },
+  {
+    "id": 73,
+    "companyName": "ADP",
+    "applyUrl": "https://jobs.adp.com/",
+    "isVisible": true
+  },
+  {
+    "id": 74,
+    "companyName": "Thomson Reuters",
+    "applyUrl": "https://thomsonreuters.wd5.myworkdayjobs.com/en-US/External_Career_Site?q=.net",
+    "isVisible": true
+  },
+  {
+    "id": 75,
+    "companyName": "FIS",
+    "applyUrl": "https://careers.fisglobal.com/us/en/search-results?keywords=.net",
+    "isVisible": true
+  },
+  {
+    "id": 76,
+    "companyName": "Fiserv",
+    "applyUrl": "https://careers.fiserv.com/us/en/search-results?keywords=.net",
+    "isVisible": true
+  },
+  {
+    "id": 77,
+    "companyName": "Equifax",
+    "applyUrl": "https://equifax.wd5.myworkdayjobs.com/External?q=.net",
+    "isVisible": true
+  },
+  {
+    "id": 78,
+    "companyName": "Visa",
+    "applyUrl": "https://visa.wd5.myworkdayjobs.com/Visa?q=.net",
+    "isVisible": true
+  },
+  {
+    "id": 79,
+    "companyName": "Mastercard",
+    "applyUrl": "https://careers.mastercard.com/us/en/search-results?keywords=.net",
+    "isVisible": true
+  },
+  {
+    "id": 80,
+    "companyName": "American Express",
+    "applyUrl": "https://www.americanexpress.com/en-us/careers/",
+    "isVisible": true
+  },
+  {
+    "id": 81,
+    "companyName": "JPMorgan Chase",
+    "applyUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions?keyword=.net&mode=location",
+    "isVisible": true
+  },
+  {
+    "id": 82,
+    "companyName": "Wells Fargo",
+    "applyUrl": "https://www.wellsfargojobs.com/",
+    "isVisible": true
+  },
+  {
+    "id": 83,
+    "companyName": "Citi",
+    "applyUrl": "https://jobs.citi.com/search-jobs/.net",
+    "isVisible": true
+  },
+  {
+    "id": 84,
+    "companyName": "Barclays",
+    "applyUrl": "https://search.jobs.barclays/search-jobs/.net",
+    "isVisible": true
+  },
+  {
+    "id": 85,
+    "companyName": "Deutsche Bank",
+    "applyUrl": "https://careers.db.com/professionals/search-roles",
+    "isVisible": true
+  },
+  {
+    "id": 86,
+    "companyName": "HSBC",
+    "applyUrl": "https://www.hsbc.com/careers/find-a-job",
+    "isVisible": true
+  },
+  {
+    "id": 87,
+    "companyName": "Standard Chartered",
+    "applyUrl": "https://jobs.standardchartered.com/content/Search-Result-Page/?employment_type=professional_hires",
+    "isVisible": true
+  },
+  {
+    "id": 88,
+    "companyName": "UBS",
+    "applyUrl": "https://www.ubs.com/global/en/careers/search-jobs.html",
+    "isVisible": true
+  },
+  {
+    "id": 89,
+    "companyName": "BNY",
+    "applyUrl": "https://eofe.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/BNY-Careers/jobs?keyword=.net&mode=location",
+    "isVisible": true
+  },
+  {
+    "id": 90,
+    "companyName": "State Street",
+    "applyUrl": "https://careers.statestreet.com/global/en/search-results?keywords=.net",
+    "isVisible": true
+  },
+  {
+    "id": 91,
+    "companyName": "Northern Trust",
+    "applyUrl": "https://ntrs.wd1.myworkdayjobs.com/northerntrust?q=.net",
+    "isVisible": true
+  },
+  {
+    "id": 92,
+    "companyName": "Goldman Sachs",
+    "applyUrl": "https://higher.gs.com/results?search=.net",
+    "isVisible": true
+  },
+  {
+    "id": 93,
+    "companyName": "Morgan Stanley",
+    "applyUrl": "https://www.morganstanley.com/careers/career-opportunities-search",
+    "isVisible": true
+  },
+  {
+    "id": 94,
+    "companyName": "PayPal",
+    "applyUrl": "https://careers.pypl.com/",
+    "isVisible": false
+  },
+  {
+    "id": 95,
+    "companyName": "Walmart Global Tech",
+    "applyUrl": "https://tech.walmart.com/content/walmart-global-tech/en_us/careers.html",
+    "isVisible": false
+  },
+  {
+    "id": 96,
+    "companyName": "Target",
+    "applyUrl": "https://corporate.target.com/careers",
+    "isVisible": false
+  },
+  {
+    "id": 97,
+    "companyName": "Tesco",
+    "applyUrl": "https://www.tesco-careers.com/",
+    "isVisible": false
+  },
+  {
+    "id": 98,
+    "companyName": "Lowe's",
+    "applyUrl": "https://talent.lowes.com/",
+    "isVisible": false
+  },
+  {
+    "id": 99,
+    "companyName": "Optum",
+    "applyUrl": "https://careers.unitedhealthgroup.com/search-jobs/.net",
+    "isVisible": true
+  },
+  {
+    "id": 100,
+    "companyName": "Cigna Healthcare",
+    "applyUrl": "https://jobs.thecignagroup.com/us/en/search-results?keywords=.net",
+    "isVisible": true
+  },
+  {
+    "id": 101,
+    "companyName": "Infor",
+    "applyUrl": "https://www.infor.com/about/careers",
+    "isVisible": true
+  },
+  {
+    "id": 102,
+    "companyName": "OpenText",
+    "applyUrl": "https://careers.opentext.com/us/en/search-results?keywords=.net",
+    "isVisible": true
+  },
+  {
+    "id": 103,
+    "companyName": "Pegasystems",
+    "applyUrl": "https://www.pega.com/about/careers",
+    "isVisible": false
+  },
+  {
+    "id": 104,
+    "companyName": "Western Digital",
+    "applyUrl": "https://www.westerndigital.com/company/careers",
+    "isVisible": false
+  },
+  {
+    "id": 105,
+    "companyName": "Micron Technology",
+    "applyUrl": "https://careers.micron.com/",
+    "isVisible": false
+  },
+  {
+    "id": 106,
+    "companyName": "Applied Materials",
+    "applyUrl": "https://careers.appliedmaterials.com/",
+    "isVisible": false
+  },
+  {
+    "id": 107,
+    "companyName": "Lam Research",
+    "applyUrl": "https://careers.lamresearch.com/",
+    "isVisible": false
+  },
+  {
+    "id": 108,
+    "companyName": "Synopsys",
+    "applyUrl": "https://www.synopsys.com/careers.html",
+    "isVisible": false
+  },
+  {
+    "id": 109,
+    "companyName": "Cadence",
+    "applyUrl": "https://careers.cadence.com/",
+    "isVisible": false
+  },
+  {
+    "id": 110,
+    "companyName": "NXP Semiconductors",
+    "applyUrl": "https://www.nxp.com/company/about-nxp/careers:CAREERS",
+    "isVisible": false
+  },
+  {
+    "id": 111,
+    "companyName": "Texas Instruments",
+    "applyUrl": "https://careers.ti.com/",
+    "isVisible": false
+  },
+  {
+    "id": 112,
+    "companyName": "Continental",
+    "applyUrl": "https://jobs.continental.com/en/#/",
+    "isVisible": true
+  },
+  {
+    "id": 113,
+    "companyName": "Mercedes-Benz Research and Development India",
+    "applyUrl": "https://jobs.mercedes-benz.com/en",
+    "isVisible": true
+  },
+  {
+    "id": 114,
+    "companyName": "Volvo Group",
+    "applyUrl": "https://jobs.volvogroup.com/search/?q=.net",
+    "isVisible": true
+  },
+  {
+    "id": 115,
+    "companyName": "Ford Motor Company",
+    "applyUrl": "https://www.careers.ford.com/en/search-jobs/.net",
+    "isVisible": true
+  },
+  {
+    "id": 116,
+    "companyName": "Renault Nissan Technology and Business Centre India",
+    "applyUrl": "https://www.renaultgroup.com/en/careers/",
+    "isVisible": true
+  },
+  {
+    "id": 117,
+    "companyName": "Hyundai AutoEver India",
+    "applyUrl": "https://www.hyundai-autoever.com/eng/recruit/recruitment.hd",
+    "isVisible": false
+  },
+  {
+    "id": 118,
+    "companyName": "Airbus",
+    "applyUrl": "https://ag.wd3.myworkdayjobs.com/Airbus?q=.net",
+    "isVisible": true
+  },
+  {
+    "id": 119,
+    "companyName": "GE Vernova",
+    "applyUrl": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite?q=.net",
+    "isVisible": true
+  },
+  {
+    "id": 120,
+    "companyName": "Schneider Electric",
+    "applyUrl": "https://careers.se.com/jobs?keywords=.net",
+    "isVisible": true
+  },
+  {
+    "id": 121,
+    "companyName": "ABB",
+    "applyUrl": "https://careers.abb/global/en/search-results?keywords=.net",
+    "isVisible": true
+  },
+  {
+    "id": 122,
+    "companyName": "Emerson",
+    "applyUrl": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?keyword=.net&mode=location",
+    "isVisible": true
+  },
+  {
+    "id": 123,
+    "companyName": "Rockwell Automation",
+    "applyUrl": "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation?q=.net",
+    "isVisible": true
+  },
+  {
+    "id": 124,
+    "companyName": "Carrier",
+    "applyUrl": "https://jobs.carrier.com/en/search-jobs/.net",
+    "isVisible": true
+  },
+  {
+    "id": 125,
+    "companyName": "Philips",
+    "applyUrl": "https://www.careers.philips.com/in/en/search-results?keywords=.net",
+    "isVisible": true
+  },
+  {
+    "id": 126,
+    "companyName": "Stryker",
+    "applyUrl": "https://careers.stryker.com/jobs",
+    "isVisible": true
+  },
+  {
+    "id": 127,
+    "companyName": "Medtronic",
+    "applyUrl": "https://medtronic.wd1.myworkdayjobs.com/MedtronicCareers?q=.net",
+    "isVisible": true
+  },
+  {
+    "id": 128,
+    "companyName": "Roche",
+    "applyUrl": "https://careers.roche.com/global/en/search-results?keywords=.net",
+    "isVisible": true
+  },
+  {
+    "id": 129,
+    "companyName": "Novartis",
+    "applyUrl": "https://www.novartis.com/careers/career-search?search_api_fulltext=.net",
+    "isVisible": true
+  },
+  {
+    "id": 130,
+    "companyName": "GSK",
+    "applyUrl": "https://www.gsk.com/en-gb/careers/search-jobs/",
+    "isVisible": true
+  },
+  {
+    "id": 131,
+    "companyName": "AstraZeneca",
+    "applyUrl": "https://careers.astrazeneca.com/search-jobs/.net",
+    "isVisible": true
+  },
+  {
+    "id": 132,
+    "companyName": "Bayer",
+    "applyUrl": "https://talent.bayer.com/careers?query=.net",
+    "isVisible": true
+  },
+  {
+    "id": 133,
+    "companyName": "Sanofi",
+    "applyUrl": "https://jobs.sanofi.com/en/search-jobs/.net",
+    "isVisible": true
+  },
+  {
+    "id": 134,
+    "companyName": "Pfizer",
+    "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers?q=.net",
+    "isVisible": true
+  },
+  {
+    "id": 135,
+    "companyName": "IQVIA",
+    "applyUrl": "https://jobs.iqvia.com/en",
+    "isVisible": true
+  },
+  {
+    "id": 136,
+    "companyName": "Thermo Fisher Scientific",
+    "applyUrl": "https://jobs.thermofisher.com/global/en/search-results?keywords=.net",
+    "isVisible": true
+  },
+  {
+    "id": 137,
+    "companyName": "Clarivate",
+    "applyUrl": "https://careers.clarivate.com/search-results?keywords=.net",
+    "isVisible": true
+  },
+  {
+    "id": 138,
+    "companyName": "Elsevier",
+    "applyUrl": "https://relx.wd3.myworkdayjobs.com/ElsevierJobs?q=.net",
+    "isVisible": true
+  },
+  {
+    "id": 139,
+    "companyName": "Moody's",
+    "applyUrl": "https://careers.moodys.com/en/search-jobs/.net",
+    "isVisible": true
+  },
+  {
+    "id": 140,
+    "companyName": "S&P Global",
+    "applyUrl": "https://careers.spglobal.com/jobs?keywords=.net",
+    "isVisible": true
+  },
+  {
+    "id": 141,
+    "companyName": "NielsenIQ",
+    "applyUrl": "https://nielseniq.com/global/en/careers/",
+    "isVisible": true
+  },
+  {
+    "id": 142,
+    "companyName": "Dun & Bradstreet",
+    "applyUrl": "https://www.dnb.com/en-us/about/careers.html",
+    "isVisible": true
+  },
+  {
+    "id": 143,
+    "companyName": "TransUnion",
+    "applyUrl": "https://transunion.wd5.myworkdayjobs.com/TransUnion?q=.net",
+    "isVisible": true
+  },
+  {
+    "id": 144,
+    "companyName": "FactSet",
+    "applyUrl": "https://www.factset.com/careers",
+    "isVisible": true
+  },
+  {
+    "id": 145,
+    "companyName": "Morningstar",
+    "applyUrl": "https://www.morningstar.com/careers",
+    "isVisible": true
+  },
+  {
+    "id": 146,
+    "companyName": "Fidelity Investments",
+    "applyUrl": "https://fmr.wd1.myworkdayjobs.com/targeted?q=.net",
+    "isVisible": true
+  },
+  {
+    "id": 147,
+    "companyName": "Synchrony",
+    "applyUrl": "https://www.synchronycareers.com/search-jobs/.net",
+    "isVisible": true
+  },
+  {
+    "id": 148,
+    "companyName": "Alight Solutions",
+    "applyUrl": "https://careers.alight.com/us/en/search-results?keywords=.net",
+    "isVisible": true
+  },
+  {
+    "id": 149,
+    "companyName": "Wolters Kluwer",
+    "applyUrl": "https://wk.wd3.myworkdayjobs.com/External?q=.net",
+    "isVisible": true
+  },
+  {
+    "id": 150,
+    "companyName": "Kantar",
+    "applyUrl": "https://careers.kantar.com/job-search",
+    "isVisible": true
+  },
+  {
+    "id": 151,
+    "companyName": "Altimetrik",
+    "applyUrl": "https://www.altimetrik.com/careers/",
+    "isVisible": true
+  },
+  {
+    "id": 152,
+    "companyName": "Encora",
+    "applyUrl": "https://www.encora.com/careers",
+    "isVisible": false
+  },
+  {
+    "id": 153,
+    "companyName": "SoftServe",
+    "applyUrl": "https://career.softserveinc.com/en-us/vacancies",
+    "isVisible": true
+  },
+  {
+    "id": 154,
+    "companyName": "Luxoft",
+    "applyUrl": "https://career.luxoft.com/jobs",
+    "isVisible": true
+  },
+  {
+    "id": 155,
+    "companyName": "Endava",
+    "applyUrl": "https://www.endava.com/careers/jobs",
+    "isVisible": true
+  },
+  {
+    "id": 156,
+    "companyName": "Xoriant",
+    "applyUrl": "https://www.xoriant.com/careers/",
+    "isVisible": true
+  },
+  {
+    "id": 157,
+    "companyName": "P99Soft",
+    "applyUrl": "https://p99soft.com/careers",
+    "isVisible": true
+  },
+  {
+    "id": 158,
+    "companyName": "Ciklum",
+    "applyUrl": "https://jobs.ciklum.com/",
+    "isVisible": true
+  },
+  {
+    "id": 159,
+    "companyName": "Unisys",
+    "applyUrl": "https://unisys.wd5.myworkdayjobs.com/External?q=.net",
+    "isVisible": true
+  },
+  {
+    "id": 160,
+    "companyName": "Hinduja Global Solutions",
+    "applyUrl": "https://www.teamhgs.com/careers/",
+    "isVisible": false
+  },
+  {
+    "id": 161,
+    "companyName": "Firstsource",
+    "applyUrl": "https://www.firstsource.com/careers/",
+    "isVisible": false
+  },
+  {
+    "id": 162,
+    "companyName": "eClerx",
+    "applyUrl": "https://eclerx.com/careers/",
+    "isVisible": false
+  },
+  {
+    "id": 163,
+    "companyName": "EXL",
+    "applyUrl": "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/jobs?keyword=.net&mode=location",
+    "isVisible": true
+  },
+  {
+    "id": 164,
+    "companyName": "R1 RCM",
+    "applyUrl": "https://www.r1rcm.com/careers/jobs",
+    "isVisible": true
+  },
+  {
+    "id": 165,
+    "companyName": "Gainwell Technologies",
+    "applyUrl": "https://jobs.gainwelltechnologies.com/search/?q=.net&locationsearch=India",
+    "isVisible": true
+  },
+  {
+    "id": 166,
+    "companyName": "Zeta",
+    "applyUrl": "https://www.zeta.tech/careers/",
+    "isVisible": false
+  },
+  {
+    "id": 167,
+    "companyName": "Razorpay",
+    "applyUrl": "https://razorpay.com/jobs/",
+    "isVisible": false
+  },
+  {
+    "id": 168,
+    "companyName": "PhonePe",
+    "applyUrl": "https://www.phonepe.com/careers/",
+    "isVisible": false
+  },
+  {
+    "id": 169,
+    "companyName": "Flipkart",
+    "applyUrl": "https://www.flipkartcareers.com/",
+    "isVisible": false
+  },
+  {
+    "id": 170,
+    "companyName": "Meesho",
+    "applyUrl": "https://www.meesho.io/careers",
+    "isVisible": false
+  },
+  {
+    "id": 171,
+    "companyName": "Swiggy",
+    "applyUrl": "https://careers.swiggy.com/",
+    "isVisible": false
+  },
+  {
+    "id": 172,
+    "companyName": "Ola",
+    "applyUrl": "https://www.olacabs.com/careers",
+    "isVisible": false
+  },
+  {
+    "id": 173,
+    "companyName": "MakeMyTrip",
+    "applyUrl": "https://careers.makemytrip.com/",
+    "isVisible": false
+  },
+  {
+    "id": 174,
+    "companyName": "Goibibo",
+    "applyUrl": "https://careers.makemytrip.com/",
+    "isVisible": false
+  },
+  {
+    "id": 175,
+    "companyName": "Jio Platforms",
+    "applyUrl": "https://careers.jio.com/",
+    "isVisible": false
+  },
+  {
+    "id": 176,
+    "companyName": "Airtel",
+    "applyUrl": "https://www.airtel.in/careers/",
+    "isVisible": false
+  },
+  {
+    "id": 177,
+    "companyName": "Vodafone Idea",
+    "applyUrl": "https://www.myvi.in/careers",
+    "isVisible": false
+  },
+  {
+    "id": 178,
+    "companyName": "Tata Communications",
+    "applyUrl": "https://www.tatacommunications.com/careers/",
+    "isVisible": false
+  },
+  {
+    "id": 179,
+    "companyName": "Netcracker",
+    "applyUrl": "https://www.netcracker.com/careers.html",
+    "isVisible": false
+  },
+  {
+    "id": 180,
+    "companyName": "Comviva",
+    "applyUrl": "https://www.comviva.com/careers/",
+    "isVisible": false
+  },
+  {
+    "id": 181,
+    "companyName": "Tejas Networks",
+    "applyUrl": "https://www.tejasnetworks.com/careers/",
+    "isVisible": false
+  },
+  {
+    "id": 182,
+    "companyName": "Freshworks",
+    "applyUrl": "https://www.freshworks.com/company/careers/",
+    "isVisible": false
+  },
+  {
+    "id": 183,
+    "companyName": "Zoho",
+    "applyUrl": "https://careers.zohocorp.com/",
+    "isVisible": false
+  },
+  {
+    "id": 184,
+    "companyName": "BrowserStack",
+    "applyUrl": "https://www.browserstack.com/careers",
+    "isVisible": false
+  },
+  {
+    "id": 185,
+    "companyName": "Postman",
+    "applyUrl": "https://www.postman.com/company/careers/",
+    "isVisible": false
+  },
+  {
+    "id": 186,
+    "companyName": "Chargebee",
+    "applyUrl": "https://www.chargebee.com/careers/",
+    "isVisible": false
+  },
+  {
+    "id": 187,
+    "companyName": "CRED",
+    "applyUrl": "https://careers.cred.club/",
+    "isVisible": false
+  },
+  {
+    "id": 188,
+    "companyName": "Dream Sports",
+    "applyUrl": "https://www.dreamsports.group/careers/",
+    "isVisible": false
+  },
+  {
+    "id": 189,
+    "companyName": "InMobi",
+    "applyUrl": "https://www.inmobi.com/careers",
+    "isVisible": false
+  },
+  {
+    "id": 190,
+    "companyName": "Gameskraft",
+    "applyUrl": "https://www.gameskraft.com/careers/",
+    "isVisible": false
+  },
+  {
+    "id": 191,
+    "companyName": "MPL",
+    "applyUrl": "https://www.mpl.live/careers",
+    "isVisible": false
+  },
+  {
+    "id": 192,
+    "companyName": "Policybazaar",
+    "applyUrl": "https://www.policybazaar.com/careers/",
+    "isVisible": true
+  },
+  {
+    "id": 193,
+    "companyName": "Nykaa",
+    "applyUrl": "https://www.nykaa.com/careers",
+    "isVisible": false
+  },
+  {
+    "id": 194,
+    "companyName": "Zomato",
+    "applyUrl": "https://www.zomato.com/careers",
+    "isVisible": false
+  },
+  {
+    "id": 195,
+    "companyName": "OYO",
+    "applyUrl": "https://www.oyorooms.com/careers",
+    "isVisible": false
+  },
+  {
+    "id": 196,
+    "companyName": "NoBroker",
+    "applyUrl": "https://www.nobroker.in/careers",
+    "isVisible": false
+  },
+  {
+    "id": 197,
+    "companyName": "Urban Company",
+    "applyUrl": "https://www.urbancompany.com/careers",
+    "isVisible": false
+  },
+  {
+    "id": 198,
+    "companyName": "CarDekho",
+    "applyUrl": "https://www.cardekho.com/careers",
+    "isVisible": false
+  },
+  {
+    "id": 199,
+    "companyName": "PharmEasy",
+    "applyUrl": "https://pharmeasy.in/careers",
+    "isVisible": false
+  },
+  {
+    "id": 200,
+    "companyName": "Simplilearn",
+    "applyUrl": "https://www.simplilearn.com/careers",
+    "isVisible": false
+  },
+  {
+    "id": 201,
+    "companyName": "Newgen Software",
+    "applyUrl": "https://newgensoft.com/company/careers/",
+    "isVisible": true
+  },
+  {
+    "id": 202,
+    "companyName": "Nucleus Software",
+    "applyUrl": "https://nucleussoftware.zohorecruit.in/jobs/Careers",
+    "isVisible": true
+  },
+  {
+    "id": 203,
+    "companyName": "3i Infotech",
+    "applyUrl": "https://www.3i-infotech.com/careers/",
+    "isVisible": true
+  },
+  {
+    "id": 204,
+    "companyName": "Sify Technologies",
+    "applyUrl": "https://sifycareer.tallite.com/jobs",
+    "isVisible": true
+  },
+  {
+    "id": 205,
+    "companyName": "R Systems",
+    "applyUrl": "https://www.rsystems.com/career/",
+    "isVisible": false
+  },
+  {
+    "id": 206,
+    "companyName": "Kellton",
+    "applyUrl": "https://www.kellton.com/job-list",
+    "isVisible": true
+  },
+  {
+    "id": 207,
+    "companyName": "Aurionpro",
+    "applyUrl": "https://www.aurionpro.com/careers/",
+    "isVisible": true
+  },
+  {
+    "id": 208,
+    "companyName": "Ramco Systems",
+    "applyUrl": "https://www.ramco.com/careers/jobs-by-locations?experience=Experienced",
+    "isVisible": true
+  },
+  {
+    "id": 209,
+    "companyName": "Tanla Platforms",
+    "applyUrl": "https://www.tanla.com/careers/jobs-listing?department=Product%20%26%20Engineering",
+    "isVisible": true
+  },
+  {
+    "id": 210,
+    "companyName": "CMS IT Services",
+    "applyUrl": "https://www.cmsitservices.com/",
+    "isVisible": false
+  },
+  {
+    "id": 211,
+    "companyName": "Motherson Technology Services",
+    "applyUrl": "https://www.mothersontechnology.com/careers/",
+    "isVisible": true
+  },
+  {
+    "id": 212,
+    "companyName": "L&T Infotech",
+    "applyUrl": "https://careers.ltm.com/",
+    "isVisible": false
+  },
+  {
+    "id": 213,
+    "companyName": "Pyramid Consulting",
+    "applyUrl": "https://jobs.sprockets.ai/en-US/pyramidinc/jobs",
+    "isVisible": true
+  },
+  {
+    "id": 214,
+    "companyName": "CitiusTech",
+    "applyUrl": "https://www.citiustech.com/careers",
+    "isVisible": true
+  },
+  {
+    "id": 215,
+    "companyName": "Maven Wave",
+    "applyUrl": "https://www.mavenwave.com/careers/",
+    "isVisible": false
+  },
+  {
+    "id": 216,
+    "companyName": "Prodapt",
+    "applyUrl": "https://career-portal.prodapt.com/",
+    "isVisible": true
+  },
+  {
+    "id": 217,
+    "companyName": "Mindsprint",
+    "applyUrl": "https://mindsprint.darwinbox.in/ms/candidate/careers",
+    "isVisible": true
+  },
+  {
+    "id": 218,
+    "companyName": "Quantiphi",
+    "applyUrl": "https://quantiphi.wd1.myworkdayjobs.com/Careers_at_Quantiphi?q=.net",
+    "isVisible": true
+  },
+  {
+    "id": 219,
+    "companyName": "Cognizant Softvision",
+    "applyUrl": "https://careers.cognizant.com/",
+    "isVisible": false
+  },
+  {
+    "id": 220,
+    "companyName": "SLK Software",
+    "applyUrl": "https://www.slksoftware.com/careers/",
+    "isVisible": true
+  },
+  {
+    "id": 221,
+    "companyName": "Rapyder Cloud Solutions",
+    "applyUrl": "https://careers.rapyder.com/jobs/Careers",
+    "isVisible": true
+  },
+  {
+    "id": 222,
+    "companyName": "CloudThat",
+    "applyUrl": "https://www.cloudthat.com/careers/",
+    "isVisible": true
+  },
+  {
+    "id": 223,
+    "companyName": "O9 Solutions",
+    "applyUrl": "https://o9solutions.wd5.myworkdayjobs.com/o9SolutionsExternal?q=.net",
+    "isVisible": true
+  },
+  {
+    "id": 224,
+    "companyName": "N-iX",
+    "applyUrl": "https://careers.n-ix.com/jobs/",
+    "isVisible": true
+  },
+  {
+    "id": 225,
+    "companyName": "Bounteous",
+    "applyUrl": "https://www.bounteous.com/careers/search-results?q=.net",
+    "isVisible": true
+  },
+  {
+    "id": 226,
+    "companyName": "Horizontal Digital",
+    "applyUrl": "https://www.horizontaldigital.com/careers",
+    "isVisible": true
+  },
+  {
+    "id": 227,
+    "companyName": "TA Digital",
+    "applyUrl": "https://www.tadigital.com/careers/",
+    "isVisible": false
+  },
+  {
+    "id": 228,
+    "companyName": "InfoBeans",
+    "applyUrl": "https://infobeans.ai/careers/",
+    "isVisible": true
+  },
+  {
+    "id": 229,
+    "companyName": "Simform",
+    "applyUrl": "https://www.simform.com/current-openings/",
+    "isVisible": true
+  },
+  {
+    "id": 230,
+    "companyName": "Nagarro MBC",
+    "applyUrl": "https://www.nagarro.com/en/careers",
+    "isVisible": false
+  },
+  {
+    "id": 231,
+    "companyName": "Fynd",
+    "applyUrl": "https://www.fynd.com/careers",
+    "isVisible": false
+  },
+  {
+    "id": 232,
+    "companyName": "Udaan",
+    "applyUrl": "https://udaan.com/careers",
+    "isVisible": false
+  },
+  {
+    "id": 233,
+    "companyName": "Licious",
+    "applyUrl": "https://www.licious.in/careers",
+    "isVisible": false
+  },
+  {
+    "id": 234,
+    "companyName": "Myntra",
+    "applyUrl": "https://www.myntra.com/careers",
+    "isVisible": false
+  },
+  {
+    "id": 235,
+    "companyName": "Tata 1mg",
+    "applyUrl": "https://www.1mg.com/careers",
+    "isVisible": false
+  },
+  {
+    "id": 236,
+    "companyName": "BigBasket",
+    "applyUrl": "https://careers.bigbasket.com/",
+    "isVisible": false
+  },
+  {
+    "id": 237,
+    "companyName": "Ather Energy",
+    "applyUrl": "https://www.atherenergy.com/careers",
+    "isVisible": false
+  },
+  {
+    "id": 238,
+    "companyName": "Ola Electric",
+    "applyUrl": "https://www.olaelectric.com/careers",
+    "isVisible": false
+  },
+  {
+    "id": 239,
+    "companyName": "Tata Digital",
+    "applyUrl": "https://www.tatadigital.com/careers/",
+    "isVisible": false
+  },
+  {
+    "id": 240,
+    "companyName": "Tata Neu",
+    "applyUrl": "https://www.tatadigital.com/careers/",
+    "isVisible": false
+  },
+  {
+    "id": 241,
+    "companyName": "Bajaj Finserv",
+    "applyUrl": "https://www.bajajfinserv.in/careers",
+    "isVisible": false
+  },
+  {
+    "id": 242,
+    "companyName": "HDFC Bank",
+    "applyUrl": "https://www.hdfcbank.com/personal/about-us/careers",
+    "isVisible": false
+  },
+  {
+    "id": 243,
+    "companyName": "ICICI Bank",
+    "applyUrl": "https://www.icicibank.com/careers",
+    "isVisible": false
+  },
+  {
+    "id": 244,
+    "companyName": "Axis Bank",
+    "applyUrl": "https://www.axisbank.com/careers",
+    "isVisible": false
+  },
+  {
+    "id": 245,
+    "companyName": "Kotak Mahindra Bank",
+    "applyUrl": "https://www.kotak.com/en/careers.html",
+    "isVisible": false
+  },
+  {
+    "id": 246,
+    "companyName": "IDFC FIRST Bank",
+    "applyUrl": "https://www.idfcfirstbank.com/careers",
+    "isVisible": false
+  },
+  {
+    "id": 247,
+    "companyName": "BharatPe",
+    "applyUrl": "https://bharatpe.com/careers",
+    "isVisible": false
+  },
+  {
+    "id": 248,
+    "companyName": "Pine Labs",
+    "applyUrl": "https://www.pinelabs.com/careers/open-jobs",
+    "isVisible": true
+  },
+  {
+    "id": 249,
+    "companyName": "MobiKwik",
+    "applyUrl": "https://www.mobikwik.com/careers",
+    "isVisible": false
+  },
+  {
+    "id": 250,
+    "companyName": "Groww",
+    "applyUrl": "https://groww.in/careers",
+    "isVisible": false
+  },
+  {
+    "id": 251,
+    "companyName": "Avanade",
+    "applyUrl": "https://www.avanade.com/en/career/search-jobs",
+    "isVisible": true
+  },
+  {
+    "id": 252,
+    "companyName": "Synechron",
+    "applyUrl": "https://www.synechron.com/careers",
+    "isVisible": true
+  },
+  {
+    "id": 253,
+    "companyName": "Iris Software",
+    "applyUrl": "https://www.irissoftware.com/careers/",
+    "isVisible": true
+  },
+  {
+    "id": 254,
+    "companyName": "Infogain (now Tenarai)",
+    "applyUrl": "https://www.tenarai.com/careers-1",
+    "isVisible": true
+  },
+  {
+    "id": 255,
+    "companyName": "Cybage",
+    "applyUrl": "https://www.cybage.com/careers/open-positions",
+    "isVisible": true
+  },
+  {
+    "id": 256,
+    "companyName": "Tavant",
+    "applyUrl": "https://tavant.com/careers/",
+    "isVisible": true
+  },
+  {
+    "id": 257,
+    "companyName": "Thoughtworks",
+    "applyUrl": "https://www.thoughtworks.com/careers/jobs",
+    "isVisible": true
+  },
+  {
+    "id": 258,
+    "companyName": "Globant",
+    "applyUrl": "https://career.globant.com/",
+    "isVisible": true
+  },
+  {
+    "id": 259,
+    "companyName": "Ascendion",
+    "applyUrl": "https://ascendion.com/careers/",
+    "isVisible": true
+  },
+  {
+    "id": 260,
+    "companyName": "KANINI",
+    "applyUrl": "https://kanini.com/careers/",
+    "isVisible": true
+  },
+  {
+    "id": 261,
+    "companyName": "Emids",
+    "applyUrl": "https://www.emids.com/careers/",
+    "isVisible": true
+  },
+  {
+    "id": 262,
+    "companyName": "ZS Associates",
+    "applyUrl": "https://jobs.zs.com/jobs",
+    "isVisible": true
+  },
+  {
+    "id": 263,
+    "companyName": "Accion Labs",
+    "applyUrl": "https://www.accionlabs.com/careers",
+    "isVisible": true
+  },
+  {
+    "id": 264,
+    "companyName": "Tietoevry",
+    "applyUrl": "https://careers.tieto.com/",
+    "isVisible": true
+  },
+  {
+    "id": 265,
+    "companyName": "3Pillar Global",
+    "applyUrl": "https://www.3pillar.ai/careers/",
+    "isVisible": true
+  },
+  {
+    "id": 266,
+    "companyName": "Mindfire Solutions",
+    "applyUrl": "https://www.mindfiresolutions.com/life-at-mindfire-people-culture-career-opportunities/career/",
+    "isVisible": true
+  },
+  {
+    "id": 267,
+    "companyName": "Trigent Software",
+    "applyUrl": "https://trigent.com/careers/",
+    "isVisible": true
+  },
+  {
+    "id": 268,
+    "companyName": "Saksoft",
+    "applyUrl": "https://www.saksoft.com/careers/",
+    "isVisible": true
+  }
 ]

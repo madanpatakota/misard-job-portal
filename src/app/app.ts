@@ -11,6 +11,7 @@ interface Job {
   id: number;
   companyName: string;
   applyUrl: string;
+  isVisible: boolean;
 }
 
 @Component({
@@ -103,7 +104,7 @@ visibleJobs = computed(() => {
     this.http.get<Job[]>('assets/data/jobs.json')
       .subscribe({
         next: (data) => {
-          this.jobs.set(data);
+          this.jobs.set(data.filter(job => job.isVisible));
         },
         error: () => {
           console.log('Unable to load jobs.json');
