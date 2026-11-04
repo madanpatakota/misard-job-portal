@@ -12,6 +12,11 @@ interface Job {
   companyName: string;
   applyUrl: string;
   isVisible: boolean;
+  companyType: 'MNC' | 'Non-MNC';
+  companySize: 'Large' | 'Medium' | 'Small';
+  employeeCount: string;
+  industry: string;
+  skills: string[];
 }
 
 @Component({
@@ -26,6 +31,7 @@ export class App {
 
   private loginStorageKey = 'misard-logged-in-candidate';
   private appliedStorageKey = 'misard-applied-jobs';
+  private pageSizeStorageKey = 'misard-page-size';
 
   // Carried from registration to the login page.
   registeredEmail = signal('');
@@ -43,23 +49,33 @@ export class App {
 
   currentPage = signal(1);
 
-pageSize = 10;
+pageSizeOptions = [10, 25, 50, 100, 250, 500];
+
+pageSize = signal(this.getPageSize());
 
 totalPages = computed(() => {
   return Math.max(
     1,
-    Math.ceil(this.filteredJobs().length / this.pageSize)
+    Math.ceil(this.filteredJobs().length / this.pageSize())
   );
 });
 
 visibleJobs = computed(() => {
-  const startIndex = (this.currentPage() - 1) * this.pageSize;
+  const startIndex = (this.currentPage() - 1) * this.pageSize();
 
   return this.filteredJobs().slice(
     startIndex,
-    startIndex + this.pageSize
+    startIndex + this.pageSize()
   );
 });
+
+rangeStart = computed(() =>
+  (this.currentPage() - 1) * this.pageSize() + 1
+);
+
+rangeEnd = computed(() =>
+  Math.min(this.currentPage() * this.pageSize(), this.filteredJobs().length)
+);
 
   /*
     Example data:
@@ -75,12 +91,46 @@ visibleJobs = computed(() => {
 
   searchTerm = signal('');
 
+  // '' means no filter.
+  selectedType = signal('');
+  selectedSize = signal('');
+  selectedIndustry = signal('');
+  selectedSkill = signal('');
+
+  industries = computed(() =>
+    [...new Set(this.jobs().map(job => job.industry))].sort()
+  );
+
+  skills = computed(() =>
+    [...new Set(this.jobs().flatMap(job => job.skills))].sort()
+  );
+
   filteredJobs = computed(() => {
     const status = this.selectedStatus();
     const appliedJobs = this.appliedJobs();
     const search = this.searchTerm().trim().toLowerCase();
+    const type = this.selectedType();
+    const size = this.selectedSize();
+    const industry = this.selectedIndustry();
+    const skill = this.selectedSkill();
 
     let jobs = this.jobs();
+
+    if (type) {
+      jobs = jobs.filter(job => job.companyType === type);
+    }
+
+    if (size) {
+      jobs = jobs.filter(job => job.companySize === size);
+    }
+
+    if (industry) {
+      jobs = jobs.filter(job => job.industry === industry);
+    }
+
+    if (skill) {
+      jobs = jobs.filter(job => job.skills.includes(skill));
+    }
 
     if (status === 'applied') {
       jobs = jobs.filter(job => appliedJobs[job.id]);
@@ -134,6 +184,7 @@ visibleJobs = computed(() => {
 
     this.selectedStatus.set('all');
     this.searchTerm.set('');
+    this.clearFilters();
   }
 
   showRegistration() {
@@ -192,6 +243,38 @@ pageNumbers() {
     this.currentPage.set(1);
   }
 
+  changeFilter(filter: 'type' | 'size' | 'industry' | 'skill', value: string) {
+    const filters = {
+      type: this.selectedType,
+      size: this.selectedSize,
+      industry: this.selectedIndustry,
+      skill: this.selectedSkill
+    };
+
+    filters[filter].set(value);
+    this.currentPage.set(1);
+  }
+
+  changePageSize(size: number) {
+    this.pageSize.set(size);
+    this.currentPage.set(1);
+
+    localStorage.setItem(this.pageSizeStorageKey, String(size));
+  }
+
+  hasFilters() {
+    return !!(this.selectedType() || this.selectedSize() ||
+      this.selectedIndustry() || this.selectedSkill());
+  }
+
+  clearFilters() {
+    this.selectedType.set('');
+    this.selectedSize.set('');
+    this.selectedIndustry.set('');
+    this.selectedSkill.set('');
+    this.currentPage.set(1);
+  }
+
   isApplied(jobId: number) {
     return !!this.appliedJobs()[jobId];
   }
@@ -242,6 +325,12 @@ pageNumbers() {
     } catch {
       return null;
     }
+  }
+
+  private getPageSize() {
+    const size = Number(localStorage.getItem(this.pageSizeStorageKey));
+
+    return this.pageSizeOptions.includes(size) ? size : 10;
   }
 
   private getAppliedJobs(): Record<number, string> {

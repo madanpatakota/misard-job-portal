@@ -72,6 +72,79 @@
 
   </section>
 
+  <section class="filter-bar">
+
+    <div class="filters">
+
+      <select [value]="selectedType()" (change)="changeFilter('type', $any($event.target).value)"
+        aria-label="Company type">
+        <option value="">All Company Types</option>
+        <option value="MNC">MNC</option>
+        <option value="Non-MNC">Non-MNC</option>
+      </select>
+
+      <select [value]="selectedSize()" (change)="changeFilter('size', $any($event.target).value)"
+        aria-label="Company size">
+        <option value="">All Company Sizes</option>
+        <option value="Large">Large (10,000+ employees)</option>
+        <option value="Medium">Medium (1,000 - 10,000)</option>
+        <option value="Small">Small (below 1,000)</option>
+      </select>
+
+      <select [value]="selectedIndustry()" (change)="changeFilter('industry', $any($event.target).value)"
+        aria-label="Industry">
+        <option value="">All Industries</option>
+        @for (industry of industries(); track industry) {
+        <option [value]="industry">{{ industry }}</option>
+        }
+      </select>
+
+      <select [value]="selectedSkill()" (change)="changeFilter('skill', $any($event.target).value)"
+        aria-label="Skill">
+        <option value="">All Skills</option>
+        @for (skill of skills(); track skill) {
+        <option [value]="skill">{{ skill }}</option>
+        }
+      </select>
+
+    </div>
+
+    <div class="filter-summary">
+
+      <span class="result-count">
+        @if (filteredJobs().length) {
+        Showing <strong>{{ rangeStart() }} - {{ rangeEnd() }}</strong> of
+        <strong>{{ filteredJobs().length }}</strong> companies
+        } @else {
+        Showing <strong>0</strong> companies
+        }
+      </span>
+
+      <div class="summary-actions">
+
+        @if (hasFilters()) {
+        <button class="reset-filters-button" (click)="clearFilters()">
+          Reset filters
+        </button>
+        }
+
+        <label class="page-size">
+          Show
+          <select [value]="pageSize()" (change)="changePageSize(+$any($event.target).value)"
+            aria-label="Companies per page">
+            @for (size of pageSizeOptions; track size) {
+            <option [value]="size">{{ size }}</option>
+            }
+          </select>
+          per page
+        </label>
+
+      </div>
+
+    </div>
+
+  </section>
+
   <section class="job-list">
 
     @for (job of visibleJobs(); track job.id) {
@@ -94,6 +167,16 @@
         <h2>
           {{job.id}} -  {{ job.companyName }}
         </h2>
+
+        <div class="company-tags">
+          <span class="tag tag-type">{{ job.companyType }}</span>
+          <span class="tag tag-size">{{ job.companySize }} · {{ job.employeeCount }}</span>
+          <span class="tag">{{ job.industry }}</span>
+        </div>
+
+        <p class="skills">
+          <strong>Skills:</strong> {{ job.skills.join(', ') }}
+        </p>
 
         @if (isApplied(job.id)) {
         <p class="applied-date">
