@@ -5,102 +5,6 @@
   color: #132641;
 }
 
-/* Login Page */
-
-.login-page {
-  min-height: 100vh;
-  display: grid;
-  place-items: center;
-  padding: 25px;
-  background: linear-gradient(135deg, #001b4e, #00215e);
-}
-
-.login-card {
-  width: min(100%, 420px);
-  padding: 42px;
-  border-radius: 18px;
-  background: white;
-  box-shadow: 0 20px 50px #00000050;
-}
-
-.login-logo {
-  width: 55px;
-  height: 55px;
-  display: grid;
-  place-items: center;
-  margin-bottom: 18px;
-  border-radius: 50%;
-  color: white;
-  background: #00215e;
-  font-size: 1.5rem;
-  font-weight: 800;
-}
-
-.portal-name {
-  margin: 0;
-  color: #1769e0;
-  font-size: 0.75rem;
-  font-weight: 800;
-  letter-spacing: 1.2px;
-}
-
-.login-card h1 {
-  margin: 12px 0 10px;
-  color: #00215e;
-}
-
-.login-description {
-  margin-bottom: 28px;
-  color: #63748b;
-  line-height: 1.5;
-}
-
-.form-group {
-  display: grid;
-  gap: 8px;
-  margin-bottom: 18px;
-}
-
-.form-group label {
-  color: #213a5f;
-  font-size: 0.9rem;
-  font-weight: 700;
-}
-
-.form-group input {
-  padding: 13px;
-  border: 1px solid #ccd6e4;
-  border-radius: 7px;
-  outline: none;
-  font-size: 0.95rem;
-}
-
-.form-group input:focus {
-  border-color: #1769e0;
-}
-
-.login-button {
-  width: 100%;
-  padding: 13px;
-  border: 0;
-  border-radius: 7px;
-  color: white;
-  background: #00215e;
-  font-size: 1rem;
-  font-weight: 700;
-  cursor: pointer;
-}
-
-.login-button:hover {
-  background: #0b4196;
-}
-
-.error-message {
-  margin: 0 0 15px;
-  color: #d5223a;
-  font-size: 0.9rem;
-}
-
 /* Job Portal */
 
 .portal-shell {
@@ -188,6 +92,7 @@
 }
 
 .intro,
+.search-bar,
 .job-list {
   max-width: 1040px;
   margin: auto;
@@ -212,6 +117,35 @@
 
 .intro span {
   color: #65758a;
+}
+
+.search-bar {
+  display: flex;
+  gap: 10px;
+  padding: 0 24px 20px;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 12px 14px;
+  border: 1px solid #e2e8f1;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: white;
+}
+
+.search-bar input:focus {
+  outline: none;
+  border-color: #1769e0;
+}
+
+.clear-search-button {
+  padding: 0 16px;
+  border: 1px solid #e2e8f1;
+  border-radius: 8px;
+  color: #1769e0;
+  background: white;
+  cursor: pointer;
 }
 
 .job-list {

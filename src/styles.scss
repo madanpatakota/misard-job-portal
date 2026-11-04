@@ -7,4 +7,176 @@ html,
 body {
   margin: 0;
   padding: 0;
+  font-family: Arial, sans-serif;
+  color: #132641;
+}
+
+/* Login & Registration forms (projected into app-auth-shell) */
+
+.auth-title {
+  margin: 0 0 8px;
+  color: #00215e;
+  font-size: 1.75rem;
+}
+
+.auth-subtitle {
+  margin: 0 0 28px;
+  color: #63748b;
+  line-height: 1.5;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.form-group {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.form-group label {
+  color: #213a5f;
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #ccd6e4;
+  border-radius: 8px;
+  outline: none;
+  color: #132641;
+  background: #fbfcfe;
+  font-size: 0.95rem;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.form-group input:focus {
+  border-color: #1769e0;
+  background: white;
+  box-shadow: 0 0 0 3px #1769e026;
+}
+
+.password-field {
+  position: relative;
+}
+
+.password-field input {
+  padding-right: 64px;
+}
+
+.password-toggle {
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  transform: translateY(-50%);
+  padding: 5px 8px;
+  border: 0;
+  border-radius: 6px;
+  color: #1769e0;
+  background: none;
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.password-toggle:hover {
+  background: #eef4fd;
+}
+
+.auth-button {
+  width: 100%;
+  margin-top: 4px;
+  padding: 13px;
+  border: 0;
+  border-radius: 8px;
+  color: white;
+  background: #00215e;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.auth-button:hover {
+  background: #0b4196;
+}
+
+.error-message,
+.success-message {
+  margin: 0 0 16px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  font-size: 0.88rem;
+  line-height: 1.4;
+}
+
+.error-message {
+  color: #b4182d;
+  background: #fdecee;
+}
+
+.success-message {
+  color: #1a6b3c;
+  background: #e7f6ee;
+}
+
+.auth-switch {
+  margin: 24px 0 0;
+  color: #63748b;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.link-button {
+  padding: 0;
+  border: 0;
+  color: #1769e0;
+  background: none;
+  font-size: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.link-button:hover {
+  text-decoration: underline;
+}
+
+.auth-divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 22px 0 18px;
+  color: #8a99ad;
+  font-size: 0.85rem;
+}
+
+.auth-divider::before,
+.auth-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: #e2e8f1;
+}
+
+.google-button-host {
+  display: flex;
+  justify-content: center;
+  min-height: 44px;
+}
+
+app-google-sign-in .error-message {
+  margin-top: 12px;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .form-row {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
 }

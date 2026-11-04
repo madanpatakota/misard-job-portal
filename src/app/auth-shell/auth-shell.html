@@ -1,0 +1,57 @@
+<main class="auth-page">
+
+  <aside class="auth-brand">
+
+    <div class="brand">
+
+      <div class="brand-logo">
+        <img src="favicon.png" alt="Misard Software Solutions Logo">
+      </div>
+
+      <div class="brand-text">
+        <span class="brand-name">MISARD</span>
+        <span class="brand-subtitle">SOFTWARE SOLUTIONS</span>
+      </div>
+
+    </div>
+
+    <div class="brand-copy">
+
+      <p class="eyebrow">CANDIDATE JOB PORTAL</p>
+
+      <h2>Your next .NET, Angular &amp; SQL role starts here.</h2>
+
+      <p class="brand-description">
+        Verified openings from leading companies, curated for Misard candidates.
+      </p>
+
+      <ul class="feature-list">
+        @for (feature of features; track feature) {
+        <li>
+          <span class="feature-check">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 16 16" fill="currentColor">
+              <path d="M13.485 3.929a1 1 0 0 1 0 1.414l-6.364 6.364a1 1 0 0 1-1.414 0L2.515 8.515a1 1 0 1 1 1.414-1.414l2.485 2.485 5.657-5.657a1 1 0 0 1 1.414 0z" />
+            </svg>
+          </span>
+          {{ feature }}
+        </li>
+        }
+      </ul>
+
+    </div>
+
+    <p class="brand-footer">
+      © {{ currentYear }} Misard Software Solutions
+    </p>
+
+  </aside>
+
+  <section class="auth-panel">
+
+    <div class="auth-card">
+      <ng-content />
+    </div>
+
+  </section>
+
+</main>

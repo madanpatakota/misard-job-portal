@@ -1,6 +1,9 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, computed, inject, signal } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { CandidateSession } from './candidate-storage.service';
+import { GoogleAuthService } from './google-auth.service';
+import { Login } from './login/login';
+import { Registration } from './registration/registration';
 
 type JobStatus = 'all' | 'applied' | 'not-applied';
 
@@ -10,47 +13,26 @@ interface Job {
   applyUrl: string;
 }
 
-interface Candidate {
-  email: string;
-  password: string;
-  displayName: string;
-}
-
 @Component({
   selector: 'app-root',
-  imports: [FormsModule],
+  imports: [Login, Registration],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
 export class App {
   private http = inject(HttpClient);
+  private googleAuth = inject(GoogleAuthService);
 
   private loginStorageKey = 'misard-logged-in-candidate';
   private appliedStorageKey = 'misard-applied-jobs';
 
-  candidates: Candidate[] = [
-    {
-      email: 'madan@gmail.com',
-      password: 'Madan@123',
-      displayName: 'Madan'
-    },
-    {
-      email: 'student1@gmail.com',
-      password: 'Student@123',
-      displayName: 'Student One'
-    },
-    {
-      email: 'student2@gmail.com',
-      password: 'Student@123',
-      displayName: 'Student Two'
-    }
-  ];
+  // Carried from registration to the login page.
+  registeredEmail = signal('');
+  registrationMessage = signal('');
 
-  loginEmail = '';
-  loginPassword = '';
-  loginError = '';
+  authView = signal<'login' | 'register'>('login');
 
-  loggedInCandidate = signal<Candidate | null>(
+  loggedInCandidate = signal<CandidateSession | null>(
     this.getLoggedInCandidate()
   );
 
@@ -90,19 +72,31 @@ visibleJobs = computed(() => {
     this.getAppliedJobs()
   );
 
+  searchTerm = signal('');
+
   filteredJobs = computed(() => {
     const status = this.selectedStatus();
     const appliedJobs = this.appliedJobs();
+    const search = this.searchTerm().trim().toLowerCase();
+
+    let jobs = this.jobs();
 
     if (status === 'applied') {
-      return this.jobs().filter(job => appliedJobs[job.id]);
+      jobs = jobs.filter(job => appliedJobs[job.id]);
     }
 
     if (status === 'not-applied') {
-      return this.jobs().filter(job => !appliedJobs[job.id]);
+      jobs = jobs.filter(job => !appliedJobs[job.id]);
     }
 
-    return this.jobs();
+    if (search) {
+      jobs = jobs.filter(job =>
+        job.companyName.toLowerCase().includes(search) ||
+        job.id.toString() === search
+      );
+    }
+
+    return jobs;
   });
 
   constructor() {
@@ -117,35 +111,43 @@ visibleJobs = computed(() => {
       });
   }
 
-  login() {
-    const candidate = this.candidates.find(item =>
-      item.email === this.loginEmail.trim() &&
-      item.password === this.loginPassword
-    );
-
-    if (!candidate) {
-      this.loginError = 'Invalid email or password.';
-      return;
-    }
-
-    this.loggedInCandidate.set(candidate);
+  // Used by both email/password login and Google sign-in.
+  startSession(session: CandidateSession) {
+    this.loggedInCandidate.set(session);
 
     localStorage.setItem(
       this.loginStorageKey,
-      JSON.stringify(candidate)
+      JSON.stringify(session)
     );
 
-    this.loginError = '';
-    this.loginEmail = '';
-    this.loginPassword = '';
+    this.registeredEmail.set('');
+    this.registrationMessage.set('');
+    this.authView.set('login');
   }
 
   logout() {
     localStorage.removeItem(this.loginStorageKey);
+    this.googleAuth.signOut();
 
     this.loggedInCandidate.set(null);
 
     this.selectedStatus.set('all');
+    this.searchTerm.set('');
+  }
+
+  showRegistration() {
+    this.registrationMessage.set('');
+    this.authView.set('register');
+  }
+
+  showLogin() {
+    this.authView.set('login');
+  }
+
+  onRegistered(email: string) {
+    this.registeredEmail.set(email);
+    this.registrationMessage.set('Account created successfully. Please login.');
+    this.authView.set('login');
   }
 
   goToPage(pageNumber: number) {
@@ -181,6 +183,13 @@ pageNumbers() {
   // always start from page 1.
   this.currentPage.set(1);
 }
+
+  changeSearch(term: string) {
+    this.searchTerm.set(term);
+
+    // Show matching results from page 1.
+    this.currentPage.set(1);
+  }
 
   isApplied(jobId: number) {
     return !!this.appliedJobs()[jobId];
@@ -224,7 +233,7 @@ pageNumbers() {
     window.open(job.applyUrl, '_blank');
   }
 
-  private getLoggedInCandidate(): Candidate | null {
+  private getLoggedInCandidate(): CandidateSession | null {
     try {
       return JSON.parse(
         localStorage.getItem(this.loginStorageKey) ?? 'null'
