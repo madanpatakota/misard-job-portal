@@ -172,6 +172,9 @@
           <span class="tag tag-type">{{ job.companyType }}</span>
           <span class="tag tag-size">{{ job.companySize }} · {{ job.employeeCount }}</span>
           <span class="tag">{{ job.industry }}</span>
+          @if (isPendingVerification(job)) {
+          <span class="tag tag-pending">Pending Verification</span>
+          }
         </div>
 
         <p class="skills">

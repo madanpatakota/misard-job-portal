@@ -154,7 +154,7 @@ rangeEnd = computed(() =>
     this.http.get<Job[]>('assets/data/jobs.json')
       .subscribe({
         next: (data) => {
-          this.jobs.set(data.filter(job => job.isVisible));
+          this.jobs.set(data);
         },
         error: () => {
           console.log('Unable to load jobs.json');
@@ -277,6 +277,10 @@ pageNumbers() {
 
   isApplied(jobId: number) {
     return !!this.appliedJobs()[jobId];
+  }
+
+  isPendingVerification(job: Job): boolean {
+    return !job.isVisible;
   }
 
   getAppliedDate(jobId: number) {
